@@ -1,0 +1,233 @@
+module DrugDealer.Job.Raid
+
+import DrugDealer.Job.*
+import DrugDealer.Spawn.EntitySpawnSystem
+import DrugDealer.Spawn.VehicleSpawnSystem
+import DrugDealer.Organization.*
+import NightlyNow.Notification.{NotificationSystem, NotificationStyle}
+import DrugDealer.State.{PlayerStateSystem, TurfControlSystem, TurfLocation}
+import NightlyNow.Utils.LocationWithOrientation
+import DrugDealer.Sound.{SoundSystem}
+import DrugDealer.Map.{DrugDealerMappinData, DrugDealerMappinType}
+import NightlyNow.Utils.{PassProbabilityCheck}
+import DrugDealer.Tutorial.DrugDealerTutorialSystem
+
+// -----------------------------------------------------------------------------
+// RaidJob - Drug Dealer
+// -----------------------------------------------------------------------------
+public class RaidJob extends Job {
+    private persistent let raidLocation: RaidLocation;
+    private let spawnCount: Int32;
+    private let deadCount: Int32;
+    private let raidPreset: ref<RaidPreset>;
+    private let locationWithOrientation: ref<LocationWithOrientation>;
+    private let vehicleWaveSpawnChecked: Bool;
+    private let killedOrDefeatedNpcs: array<EntityID>;
+    private let deathTrackingLock: RWLock;
+
+    public static func Create(opt params: array<Variant>) -> ref<RaidJob> {
+        let job = new RaidJob();
+        job.Init(params);
+        return job;
+    }
+
+    // params[0] = location: RaidLocation
+    public func Init(opt params: array<Variant>) {
+        super.Init(params);
+        this.type = JobType.Raid;
+        // Persist raid location from params
+        if ArraySize(params) > 0 {
+            this.raidLocation = FromVariant<RaidLocation>(params[0]);
+        } else {
+            this.raidLocation = RaidLocation.Watson;
+        }
+    }
+
+    // Unique tag linking spawned entities to this job
+    public func GetJobTag() -> CName = StringToName("DrugDealer.Raid." + ToString(this.hashId));
+
+    // One of the spawned NPCs got attacked by the player
+    public func OnEntityAttacked() {
+        if this.vehicleWaveSpawnChecked {
+            return;
+        }
+
+        if !IsDefined(this.raidPreset) {
+            // Should never occur
+            this.vehicleWaveSpawnChecked = true;
+            return;
+        }
+
+        // Possible player reinforcements
+        let friendlyVehicleIds = RollFriendlyVehicleWave(ConvertToTurfLocation(this.raidLocation));
+
+        // Raid, unlike RoamingRaid (Rivals), always spawn enemy reinfs
+        let playerStateSystem = PlayerStateSystem.Get();
+        if !IsDefined(playerStateSystem) {
+            return;
+        }
+        let vehicleWaveSpawnCount = playerStateSystem.RollVehicleWaveSpawnCount();
+        let enemyVehicleIds = RollVehicleWave(this.raidPreset.organization, vehicleWaveSpawnCount);
+        this.SendInVehicles(friendlyVehicleIds, enemyVehicleIds);
+        this.vehicleWaveSpawnChecked = true;
+    }
+
+    // Called by EntitySpawnSystem when a tagged NPC dies
+    public func OnEntityDied(opt entityId: EntityID) {
+        RWLock.Acquire(this.deathTrackingLock);
+        if ArrayContains(this.killedOrDefeatedNpcs, entityId) {
+            // Already accounted for
+            RWLock.Release(this.deathTrackingLock);
+            return;
+        }
+
+        this.deadCount += 1;
+        ArrayPush(this.killedOrDefeatedNpcs, entityId);
+        let isLastSpawnDown = this.deadCount == this.spawnCount;
+        RWLock.Release(this.deathTrackingLock);
+
+        if isLastSpawnDown {
+            this.Complete();
+        }
+    }
+
+    // Despawn all managed entities
+    public func Purge() {
+        let spawnSystem = EntitySpawnSystem.Get();
+        if !IsDefined(spawnSystem) {
+            return;
+        }
+        let entitySystem = GameInstance.GetDynamicEntitySystem();
+        for id in entitySystem.GetTaggedIDs(this.GetJobTag()) {
+            spawnSystem.DespawnEntity(id);
+        }
+    }
+
+    public func Execute() {
+        super.Execute();
+
+        this.locationWithOrientation = RaidLocations.GetRaidLocation(this.raidLocation);
+        // Picks the more difficult variant
+        this.raidPreset = RaidPresets.GetRaidPreset(this.raidLocation, true);
+
+        // Reset death tracking for fresh spawns
+        this.deadCount = 0;
+        this.spawnCount = ArraySize(this.raidPreset.characters);
+
+        // Whether enemy drug dealers are aware of player's presence
+        let playerStateSystem = PlayerStateSystem.Get();
+        if !IsDefined(playerStateSystem) {
+            return;
+        }
+        let notoriety = playerStateSystem.RollNotoriety();
+
+        let spawnSystem = EntitySpawnSystem.Get();
+        if !IsDefined(spawnSystem) {
+            return;
+        }
+        spawnSystem
+            .RequestSpawn(
+                this.raidPreset.characters,
+                this.locationWithOrientation.location,
+                this.locationWithOrientation.orientation,
+                [this.GetJobTag()],
+                PassProbabilityCheck(notoriety)
+            );
+
+        // Pin it on the map
+        let ddMappin = new DrugDealerMappinData();
+        ddMappin.mappinType = DrugDealerMappinType.Raid;
+        ddMappin.displayName = GetLocalizedTextByKey(n"DD.Mappin.Raid");
+        super.RegisterMappin(this.locationWithOrientation.location, ddMappin, true);
+    }
+
+    public func Complete() {
+        super.Complete();
+        super.UnregisterMappin();
+
+        // Award score
+        let playerStateSystem = PlayerStateSystem.Get();
+        if !IsDefined(playerStateSystem) {
+            return;
+        }
+        playerStateSystem.ScorePlannedRaid();
+
+        // Award turf control
+        let turfLocation = ConvertToTurfLocation(this.raidLocation);
+        let turfControlSystem = TurfControlSystem.Get();
+        if !IsDefined(turfControlSystem) {
+            return;
+        }
+        turfControlSystem.AwardTurfControlByBodies(turfLocation, this.deadCount);
+
+        // Show notification
+        let notificationSystem = NotificationSystem.Get();
+        if !IsDefined(notificationSystem) {
+            return;
+        }
+        notificationSystem
+            .ShowNotification(
+                GetLocalizedTextByKey(n"DD.Raid.Successful"),
+                NotificationStyle.Reward,
+                0.0,
+                TurfControlSystem.GetLocalizationForTurfControlGainByBodies(this.deadCount)
+            );
+
+        // Play sound
+        let soundSystem = SoundSystem.Get();
+        if !IsDefined(soundSystem) {
+            return;
+        }
+        soundSystem.PlayRaidCompleted();
+        soundSystem.VoiceRaid(1.2);
+
+        // Play tutorial
+        let tutorialSystem = DrugDealerTutorialSystem.Get();
+        if !IsDefined(tutorialSystem) {
+            return;
+        }
+        tutorialSystem.PlayRaid();
+    }
+
+    public func Fail() {
+        super.Fail();
+        super.UnregisterMappin();
+
+        // Show notification
+        let notificationSystem = NotificationSystem.Get();
+        if !IsDefined(notificationSystem) {
+            return;
+        }
+        notificationSystem
+            .ShowNotification(GetLocalizedTextByKey(n"DD.Raid.Failed"), NotificationStyle.Penalty);
+
+        // Play sound
+        let soundSystem = SoundSystem.Get();
+        if !IsDefined(soundSystem) {
+            return;
+        }
+        soundSystem.PlayDrugDealFailed();
+        soundSystem.VoiceFailedDeal(0.5);
+    }
+
+    public func RefreshMappin() {
+        super.UnregisterMappin();
+        let ddMappin = new DrugDealerMappinData();
+        ddMappin.mappinType = DrugDealerMappinType.Raid;
+        ddMappin.displayName = GetLocalizedTextByKey(n"DD.Mappin.Raid");
+        super.RegisterMappin(this.locationWithOrientation.location, ddMappin, true);
+    }
+
+    private func SendInVehicles(friendlyVehicleIds: array<TweakDBID>, enemyVehicleIds: array<TweakDBID>) {
+        let allVehicleIds = friendlyVehicleIds;
+        for enemyVehicleId in enemyVehicleIds {
+            ArrayPush(allVehicleIds, enemyVehicleId);
+        }
+        let vehicleSpawnSystem = VehicleSpawnSystem.Get();
+        if !IsDefined(vehicleSpawnSystem) {
+            return;
+        }
+        vehicleSpawnSystem.SpawnVehicleWave(allVehicleIds);
+    }
+}
+

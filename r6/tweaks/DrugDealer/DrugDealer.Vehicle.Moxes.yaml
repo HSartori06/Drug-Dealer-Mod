@@ -1,0 +1,219 @@
+DrugDealer.Vehicle.Moxes.1:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_sport2_quadra_type66_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.3
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.8
+      weight: 2.0
+
+DrugDealer.Vehicle.Moxes.2:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_archer_quartz_locked_doors
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.5
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.1
+      weight: 1.0
+
+DrugDealer.Vehicle.Moxes.3:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_sport2_villefort_alvarado
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.4
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.10
+      weight: 2.0
+
+DrugDealer.Vehicle.Moxes.4:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_thorton_colby
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.6
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.2
+      weight: 1.0
+
+DrugDealer.Vehicle.Moxes.5:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_sport1_quadra_turbo
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.9
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.3
+      weight: 2.0
+
+DrugDealer.Vehicle.Moxes.6:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_sport2_quadra_type66_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.7
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.5
+      weight: 1.0
+
+DrugDealer.Vehicle.Moxes.7:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_archer_quartz_locked_doors
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.1
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.4
+      weight: 2.0
+
+DrugDealer.Vehicle.Moxes.8:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_sport2_villefort_alvarado
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.2
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.8
+      weight: 1.0
+
+DrugDealer.Vehicle.Moxes.9:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_thorton_colby
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.6
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.10
+      weight: 2.0
+
+DrugDealer.Vehicle.Moxes.10:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_sport1_quadra_turbo
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.5
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.3
+      weight: 1.0
+
+DrugDealer.Vehicle.Moxes.11:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_sport2_quadra_type66_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.4
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.7
+      weight: 2.0
+
+DrugDealer.Vehicle.Moxes.12:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_archer_quartz_locked_doors
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.9
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.2
+      weight: 1.0
+
+DrugDealer.Vehicle.Moxes.13:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_sport2_villefort_alvarado
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.1
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.8
+      weight: 1.0
+
+DrugDealer.Vehicle.Moxes.14:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_thorton_colby
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.7
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.6
+      weight: 2.0
+
+DrugDealer.Vehicle.Moxes.15:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_sport1_quadra_turbo
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.2
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.5
+      weight: 2.0
+
+DrugDealer.Vehicle.Moxes.16:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_sport2_quadra_type66_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.10
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.3
+      weight: 1.0
+
+DrugDealer.Vehicle.Moxes.17:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_archer_quartz_locked_doors
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.8
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.1
+      weight: 1.0
+
+DrugDealer.Vehicle.Moxes.18:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_sport2_villefort_alvarado
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.4
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.9
+      weight: 2.0
+
+DrugDealer.Vehicle.Moxes.19:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_thorton_colby
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.3
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.6
+      weight: 1.0
+
+DrugDealer.Vehicle.Moxes.20:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_sport1_quadra_turbo
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.7
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Loot.Moxes.10
+      weight: 2.0

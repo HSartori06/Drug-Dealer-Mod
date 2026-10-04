@@ -1,0 +1,198 @@
+# Animals
+DrugDealer.Pushers.Animals.1:
+  $base: Character.animals_grunt1_melee1_baseball_mb
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+DrugDealer.Pushers.Animals.2:
+  $base: Character.animals_bouncer1_ranged1_kenshin_mb
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+DrugDealer.Pushers.Animals.3:
+  $base: Character.animals_bouncer2_ranged2_omaha_mb
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated  
+
+DrugDealer.Pushers.Animals.4:
+  $base: Character.animals_grunt2_ranged2_pulsar_mb
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated  
+
+DrugDealer.Pushers.Animals.5:
+  $base: Character.animals_grunt1_ranged1_nova_mb
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated  
+
+DrugDealer.Pushers.Animals.6:
+  $base: Character.animals_grunt3_gunner2_defender_mb_rare
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated  
+
+# Maelstrom
+DrugDealer.Pushers.Maelstrom.1:
+  $base: Character.maelstrom_grunt2_ranged2_ajax_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated  
+
+DrugDealer.Pushers.Maelstrom.2:
+  $base: Character.maelstrom_grunt2_ranged2_copperhead_wa
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated  
+
+DrugDealer.Pushers.Maelstrom.3:
+  $base: Character.maelstrom_fast_sniper2_grad_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+# Moxes
+DrugDealer.Pushers.Moxes.1:
+  $base: Character.kab_the_mox_1_ranged1_lexington_wa
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+DrugDealer.Pushers.Moxes.2:
+  $base: Character.the_mox_1_melee2_baseball_wa
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+DrugDealer.Pushers.Moxes.3:
+  $base: Character.the_mox_elite3_fmelee3_mantis_wa_elite
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+# Scavengers
+DrugDealer.Pushers.Scavengers.1:
+  $base: Character.scavenger_grunt1_ranged1_slaughtomatic_wa
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+DrugDealer.Pushers.Scavengers.2:
+  $base: Character.scavenger_elite2_shotgun_igla_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+DrugDealer.Pushers.Scavengers.3:
+  $base: Character.scavenger_grunt1_ranged1_nova_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+DrugDealer.Pushers.Scavengers.4:
+  $base: Character.scavenger_netrunner2_netrunner2_nova_wa_rare
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+DrugDealer.Pushers.Scavengers.5:
+  $base: Character.scavenger_grunt1_ranged1_nova_wa
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+# Sixth Street
+DrugDealer.Pushers.SixthStreet.1:
+  $base: Character.sixthstreet_hooligan_melee1_knife_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+DrugDealer.Pushers.SixthStreet.2:
+  $base: Character.sixthstreet_hooligan_ranged1_nova_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+DrugDealer.Pushers.SixthStreet.3:
+  $base: Character.sixthstreet_hooligan_ranged1_saratoga_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+DrugDealer.Pushers.SixthStreet.4:
+  $base: Character.sixthstreet_veteran3_ranged2_ajax_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+DrugDealer.Pushers.SixthStreet.5:
+  $base: Character.sixthstreet_sniper2_sniper2_sor22_ma_rare
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+DrugDealer.Pushers.SixthStreet.6:
+  $base: Character.sixthstreet_patrol2_ranged2_ajax_wa
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+# Tyger Claws
+DrugDealer.Pushers.TygerClaws.1:
+  $base: Character.kab_tyger_claws_gangster1_ranged1_copperhead_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+DrugDealer.Pushers.TygerClaws.2:
+  $base: Character.kab_tyger_claws_gangster2_ranged2_shingen_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+DrugDealer.Pushers.TygerClaws.3:
+  $base: Character.lch_tyger_claws_gangster1_ranged1_nue_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+DrugDealer.Pushers.TygerClaws.4:
+  $base: Character.lch_tyger_claws_gangster2_ranged2_sidewinder_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+DrugDealer.Pushers.TygerClaws.5:
+  $base: Character.lch_tyger_claws_gangster2_ranged2_sidewinder_wa
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+# Valentinos
+DrugDealer.Pushers.Valentinos.1:
+  $base: Character.valentinos_grunt2_ranged2_nue_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+DrugDealer.Pushers.Valentinos.2:
+  $base: Character.valentinos_grunt2_ranged2_overture_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+DrugDealer.Pushers.Valentinos.3:
+  $base: Character.valentinos_grunt2_ranged2_ajax_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+DrugDealer.Pushers.Valentinos.4:
+  $base: Character.valentinos_grunt1_melee1_knife_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+# Voodoo Boys
+DrugDealer.Pushers.VoodooBoys.1:
+  $base: Character.voodooboys_grunt1_ranged2_saratoga_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+DrugDealer.Pushers.VoodooBoys.2:
+  $base: Character.voodooboys_grunt1coat_shotgun2_palica_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+DrugDealer.Pushers.VoodooBoys.3:
+  $base: Character.voodooboys_grunt1_ranged2_sidewinder_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+# Wraiths
+DrugDealer.Pushers.Wraiths.1:
+  $base: Character.wraiths_grunt1_ranged1_pulsar_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+DrugDealer.Pushers.Wraiths.2:
+  $base: Character.wraiths_grunt1_melee1_ironpipe_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+DrugDealer.Pushers.Wraiths.3:
+  $base: Character.wraiths_grunt2_ranged2_copperhead_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated

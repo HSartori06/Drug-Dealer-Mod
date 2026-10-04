@@ -1,0 +1,245 @@
+# Scavenger 1
+DrugDealer.Loot.Scavenger.1:
+  $base: Character.scavenger_grunt1_melee1_fists_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Scavenger.LootDrop
+
+# Scavenger 2
+DrugDealer.Loot.Scavenger.2:
+  $base: Character.scavenger_grunt1_ranged1_nova_wa
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Scavenger.LootDrop
+
+# Scavenger 3
+DrugDealer.Loot.Scavenger.3:
+  $base: Character.scavenger_grunt1_ranged1_slaughtomatic_wa
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Scavenger.LootDrop
+
+# Scavenger 4
+DrugDealer.Loot.Scavenger.4:
+  $base: Character.scavenger_grunt2_melee2_pipewrench_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Scavenger.LootDrop
+
+# Scavenger 5
+DrugDealer.Loot.Scavenger.5:
+  $base: Character.scavenger_grunt2_melee2_knife_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Scavenger.LootDrop
+
+# Scavenger 6 elite
+DrugDealer.Loot.Scavenger.6:
+  $base: Character.scavenger_elite2_shotgun_igla_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Scavenger.LootDrop
+
+# Scavenger 7 elite
+DrugDealer.Loot.Scavenger.7:
+  $base: Character.scavenger_elite2_shotgun_tactician_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Scavenger.LootDrop
+
+# Scavenger 8 v6 rare
+DrugDealer.Loot.Scavenger.8:
+  $base: Character.scavenger_butcher3_hmelee2_machete_mb_rare
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Scavenger.LootDrop
+
+# Scavenger 9 v6 elite
+DrugDealer.Loot.Scavenger.9:
+  $base: Character.scavenger_elite3_sniper2_grad_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Scavenger.LootDrop
+
+# Scavenger 10 v6
+DrugDealer.Loot.Scavenger.10:
+  $base: Character.scavenger_grunt1_melee1_pipewrench_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Scavenger.LootDrop
+
+# Scavenger 11 v6
+DrugDealer.Loot.Scavenger.11:
+  $base: Character.scavenger_grunt1_ranged1_nova_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Scavenger.LootDrop
+
+# Scavenger 12 v6
+DrugDealer.Loot.Scavenger.12:
+  $base: Character.scavenger_grunt1_ranged1_pulsar_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Scavenger.LootDrop
+
+# Scavenger 13 v6
+DrugDealer.Loot.Scavenger.13:
+  $base: Character.scavenger_grunt1_ranged1_slaughtomatic_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Scavenger.LootDrop
+
+# Scavenger 14 v6
+DrugDealer.Loot.Scavenger.14:
+  $base: Character.scavenger_grunt2_ranged2_copperhead_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Scavenger.LootDrop
+
+# Scavenger 15 v6 rare
+DrugDealer.Loot.Scavenger.15:
+  $base: Character.scavenger_netrunner2_netrunner2_nova_wa_rare
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Scavenger.LootDrop
+
+# Scavenger 16 v6 rare
+DrugDealer.Loot.Scavenger.16:
+  $base: Character.scavenger_strong3_gunner2_defender_mb_rare
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Scavenger.LootDrop
+
+# Scavenger loot drop
+DrugDealer.Loot.Scavenger.LootDrop:
+  $type: gamedataLootTable_Record
+  lootGenerationType: dropChance
+  maxItemsToLoot: 99
+  minItemsToLoot: 1
+  lootItems:
+    - DrugDealer.Loot.Scavenger.LootItem.1
+    - DrugDealer.Loot.Scavenger.LootItem.2
+    - DrugDealer.Loot.Scavenger.LootItem.3
+    - DrugDealer.Loot.Scavenger.LootItem.4
+    - DrugDealer.Loot.Scavenger.LootItem.5
+    - DrugDealer.Loot.Scavenger.LootItem.6
+    - DrugDealer.Loot.Scavenger.LootItem.7
+    - DrugDealer.Loot.Scavenger.LootItem.8
+    - DrugDealer.Loot.Scavenger.LootItem.9
+    - DrugDealer.Loot.Scavenger.LootItem.10
+    - DrugDealer.Loot.Scavenger.LootItem.11
+    - DrugDealer.Loot.Scavenger.LootItem.12
+    - DrugDealer.Loot.Scavenger.LootItem.13
+    - DrugDealer.Loot.Scavenger.LootItem.14
+    - DrugDealer.Loot.Scavenger.LootItem.15
+    - DrugDealer.Loot.Scavenger.LootItem.16
+
+# Scavenger loot items
+DrugDealer.Loot.Scavenger.LootItem.1:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Y99
+  dropChance: 0.05
+  dropCountMax: 3
+  dropCountMin: 1
+
+DrugDealer.Loot.Scavenger.LootItem.2:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Y99.Material.1
+  dropChance: 0.5
+  dropCountMax: 3
+  dropCountMin: 1
+
+DrugDealer.Loot.Scavenger.LootItem.3:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Y99.Material.2
+  dropChance: 0.7
+  dropCountMax: 5
+  dropCountMin: 1
+
+# JoytoysKiss material 1
+DrugDealer.Loot.Scavenger.LootItem.4:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.JoytoysKiss.Material.1
+  dropChance: 0.01
+  dropCountMax: 3
+  dropCountMin: 1
+
+# JoytoysKiss material 2
+DrugDealer.Loot.Scavenger.LootItem.5:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.JoytoysKiss.Material.2
+  dropChance: 0.01
+  dropCountMax: 3
+  dropCountMin: 1
+
+# SandstormV2 material 1
+DrugDealer.Loot.Scavenger.LootItem.6:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.SandstormV2.Material.1
+  dropChance: 0.2
+  dropCountMax: 4
+  dropCountMin: 1
+
+# SandstormV2 material 2
+DrugDealer.Loot.Scavenger.LootItem.7:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.SandstormV2.Material.2
+  dropChance: 0.1
+  dropCountMax: 3
+  dropCountMin: 1
+
+# SandstormV2 material 3
+DrugDealer.Loot.Scavenger.LootItem.8:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.SandstormV2.Material.3
+  dropChance: 0.1
+  dropCountMax: 3
+  dropCountMin: 1
+
+# BeastOut material 1
+DrugDealer.Loot.Scavenger.LootItem.9:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.BeastOut.Material.1
+  dropChance: 0.2
+  dropCountMax: 4
+  dropCountMin: 1
+
+# BeastOut material 2
+DrugDealer.Loot.Scavenger.LootItem.10:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.BeastOut.Material.2
+  dropChance: 0.1
+  dropCountMax: 3
+  dropCountMin: 1
+
+# BeastOut material 3
+DrugDealer.Loot.Scavenger.LootItem.11:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.BeastOut.Material.3
+  dropChance: 0.1
+  dropCountMax: 3
+  dropCountMin: 1
+
+# Pixie material 1 - Shimmer capsules
+DrugDealer.Loot.Scavenger.LootItem.12:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Pixie.Material.1
+  dropChance: 0.01
+  dropCountMax: 3
+  dropCountMin: 1
+
+# Pixie material 2 - Dreambloom powder
+DrugDealer.Loot.Scavenger.LootItem.13:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Pixie.Material.2
+  dropChance: 0.01
+  dropCountMax: 3
+  dropCountMin: 1
+
+# Pixie material 3 - Lumin fluid
+DrugDealer.Loot.Scavenger.LootItem.14:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Pixie.Material.3
+  dropChance: 0.01
+  dropCountMax: 3
+  dropCountMin: 1
+
+# NeonGlow material 1 - Neon tube residue
+DrugDealer.Loot.Scavenger.LootItem.15:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.NeonGlow.Material.1
+  dropChance: 0.3
+  dropCountMax: 3
+  dropCountMin: 1
+
+# NeonGlow material 2 - Zetatech neural coolant
+DrugDealer.Loot.Scavenger.LootItem.16:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.NeonGlow.Material.2
+  dropChance: 0.3
+  dropCountMax: 3
+  dropCountMin: 1

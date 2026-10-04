@@ -1,0 +1,20 @@
+# Night Market sellers
+DrugDealer.NightMarket.Seller.1:
+  $base: Character.CitizenAldecaldosFemaleNomad
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+DrugDealer.NightMarket.Seller.2:
+  $base: Character.CitizenAldecaldosMaleNomad
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+DrugDealer.NightMarket.Guard.1:
+  $base: Character.prevention_aldecaldo_rifle_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+
+DrugDealer.NightMarket.Guard.2:
+  $base: Character.prevention_aldecaldo_shotgun_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated

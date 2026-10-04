@@ -1,0 +1,39 @@
+# Y99 drug craftable
+DrugDealer.Drug.Y99:
+  $base: Items.BlackLaceV0
+  itemCategory: ItemCategory.Consumable
+  quality: Quality.Uncommon
+  buyPrice: []
+  sellPrice: []
+  statModifiers: [DrugDealer.Drug.Quantity.Modifier]
+  tags:
+    - DrugDealerDrug
+    - DrugDealerStreetGradeDrug
+    - DrugDealerStreetGradeDrugNoJK
+    - Consumable
+    - Drug
+  displayName: l"DD.Drug.Y99"
+  localizedDescription: l"DD.Drug.Y99.Description"
+  icon:
+    atlasResourcePath: icons\drug_dealer_icons.inkatlas
+    atlasPartName: slot_31
+
+# Y99 material 1
+DrugDealer.Drug.Y99.Material.1:
+  $base: DrugDealer.Drug.Material.Base
+  quality: Quality.Uncommon
+  displayName: l"DD.Drug.Y99.Material1"
+  localizedDescription: l"DD.Drug.Y99.Material1.Description"
+  icon:
+    atlasResourcePath: icons\drug_dealer_icons.inkatlas
+    atlasPartName: slot_01
+
+# Y99 material 2
+DrugDealer.Drug.Y99.Material.2:
+  $base: DrugDealer.Drug.Material.Base
+  quality: Quality.Common
+  displayName: l"DD.Drug.Y99.Material2"
+  localizedDescription: l"DD.Drug.Y99.Material2.Description"
+  icon:
+    atlasResourcePath: icons\drug_dealer_icons.inkatlas
+    atlasPartName: slot_11

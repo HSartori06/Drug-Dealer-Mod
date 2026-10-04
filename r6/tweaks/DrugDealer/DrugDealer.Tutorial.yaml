@@ -1,0 +1,71 @@
+# V4 release what's new
+Tutorial.drug_dealer_tutorial_v4:
+  $type: gamedataUIIcon_Record
+  atlasPartName: image_part
+  atlasResourcePath: tutorials\drug_dealer_tutorial_v4.inkatlas
+
+# V5 release what's new
+Tutorial.drug_dealer_tutorial_v5:
+  $type: gamedataUIIcon_Record
+  atlasPartName: image_part
+  atlasResourcePath: tutorials\drug_dealer_tutorial_v5.inkatlas
+
+# V6 release what's new
+Tutorial.drug_dealer_tutorial_v6:
+  $type: gamedataUIIcon_Record
+  atlasPartName: image_part
+  atlasResourcePath: tutorials\drug_dealer_tutorial_v6.inkatlas
+
+# Introduction
+Tutorial.drug_dealer_tutorial_introduction:
+  $type: gamedataUIIcon_Record
+  atlasPartName: image_part
+  atlasResourcePath: tutorials\drug_dealer_tutorial_introduction.inkatlas
+
+# Fiend
+Tutorial.drug_dealer_tutorial_fiend:
+  $type: gamedataUIIcon_Record
+  atlasPartName: image_part
+  atlasResourcePath: tutorials\drug_dealer_tutorial_fiend.inkatlas
+
+# Lab
+Tutorial.drug_dealer_tutorial_lab:
+  $type: gamedataUIIcon_Record
+  atlasPartName: image_part
+  atlasResourcePath: tutorials\drug_dealer_tutorial_lab.inkatlas
+
+# Raid
+Tutorial.drug_dealer_tutorial_raid:
+  $type: gamedataUIIcon_Record
+  atlasPartName: image_part
+  atlasResourcePath: tutorials\drug_dealer_tutorial_raid.inkatlas
+
+# Rank
+Tutorial.drug_dealer_tutorial_rank:
+  $type: gamedataUIIcon_Record
+  atlasPartName: image_part
+  atlasResourcePath: tutorials\drug_dealer_tutorial_rank.inkatlas
+
+# Terror
+Tutorial.drug_dealer_tutorial_terror:
+  $type: gamedataUIIcon_Record
+  atlasPartName: image_part
+  atlasResourcePath: tutorials\drug_dealer_tutorial_terror.inkatlas
+
+# Pushers
+Tutorial.drug_dealer_tutorial_pushers:
+  $type: gamedataUIIcon_Record
+  atlasPartName: image_part
+  atlasResourcePath: tutorials\drug_dealer_tutorial_pushers.inkatlas
+
+# Brothels
+Tutorial.drug_dealer_tutorial_brothels:
+  $type: gamedataUIIcon_Record
+  atlasPartName: image_part
+  atlasResourcePath: tutorials\drug_dealer_tutorial_brothels.inkatlas
+
+# Night market
+Tutorial.drug_dealer_tutorial_nightmarket:
+  $type: gamedataUIIcon_Record
+  atlasPartName: image_part
+  atlasResourcePath: tutorials\drug_dealer_tutorial_nightmarket.inkatlas

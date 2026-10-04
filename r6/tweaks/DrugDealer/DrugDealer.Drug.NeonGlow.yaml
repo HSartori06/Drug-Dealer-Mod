@@ -1,0 +1,41 @@
+# NeonGlow drug craftable
+DrugDealer.Drug.NeonGlow:
+  $base: Items.BlackLaceV0
+  itemCategory: ItemCategory.Consumable
+  quality: Quality.Uncommon
+  buyPrice: []
+  sellPrice: []
+  statModifiers: [DrugDealer.Drug.Quantity.Modifier]
+  tags:
+    - DrugDealerDrug
+    - DrugDealerStreetGradeDrug
+    - DrugDealerStreetGradeDrugNoJK
+    - Consumable
+    - Drug
+  displayName: l"DD.Drug.NeonGlow"
+  localizedDescription: l"DD.Drug.NeonGlow.Description"
+  icon:
+    atlasResourcePath: icons\drug_dealer_icons.inkatlas
+    atlasPartName: slot_39
+
+# NeonGlow material 1
+DrugDealer.Drug.NeonGlow.Material.1:
+  $base: DrugDealer.Drug.Material.Base
+  quality: Quality.Common
+  displayName: l"DD.Drug.NeonGlow.Material1"
+  localizedDescription: l"DD.Drug.NeonGlow.Material1.Description"
+  canDrop: False
+  icon:
+    atlasResourcePath: icons\drug_dealer_icons.inkatlas
+    atlasPartName: slot_19
+
+# NeonGlow material 2
+DrugDealer.Drug.NeonGlow.Material.2:
+  $base: DrugDealer.Drug.Material.Base
+  quality: Quality.Uncommon
+  displayName: l"DD.Drug.NeonGlow.Material2"
+  localizedDescription: l"DD.Drug.NeonGlow.Material2.Description"
+  canDrop: False
+  icon:
+    atlasResourcePath: icons\drug_dealer_icons.inkatlas
+    atlasPartName: slot_29

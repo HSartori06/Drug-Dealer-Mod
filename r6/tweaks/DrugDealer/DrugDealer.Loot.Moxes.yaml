@@ -1,0 +1,227 @@
+# Moxes 1
+DrugDealer.Loot.Moxes.1:
+  $base: Character.kab_the_mox_1_ranged1_lexington_wa
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Moxes.LootDrop
+
+# Moxes 2
+DrugDealer.Loot.Moxes.2:
+  $base: Character.kab_the_mox_1_ranged1_pulsar_wa
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Moxes.LootDrop
+
+# Moxes 3
+DrugDealer.Loot.Moxes.3:
+  $base: Character.the_mox_1_melee2_baseball_wa
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Moxes.LootDrop
+
+# Moxes 4
+DrugDealer.Loot.Moxes.4:
+  $base: Character.the_mox_1_ranged1_lexington_wa
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Moxes.LootDrop
+
+# Moxes 5
+DrugDealer.Loot.Moxes.5:
+  $base: Character.the_mox_1_ranged1_lexington_wa_chat
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Moxes.LootDrop
+
+# Moxes 6
+DrugDealer.Loot.Moxes.6:
+  $base: Character.the_mox_1_ranged1_pulsar_wa
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Moxes.LootDrop
+
+# Moxes 7 elite
+DrugDealer.Loot.Moxes.7:
+  $base: Character.the_mox_elite2_fmelee2_knife_wa_rare
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Moxes.LootDrop
+
+# Moxes 8 elite
+DrugDealer.Loot.Moxes.8:
+  $base: Character.the_mox_elite2_fmelee2_machete_wa_rare
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Moxes.LootDrop
+
+# Moxes 9 elite
+DrugDealer.Loot.Moxes.9:
+  $base: Character.mws_wbr_04_the_mox_elite3_fmelee3_mantis_wa_elite
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Moxes.LootDrop
+
+# Moxes 10 elite
+DrugDealer.Loot.Moxes.10:
+  $base: Character.the_mox_elite3_fmelee3_mantis_wa_elite
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Moxes.LootDrop
+
+# Moxes loot drop
+DrugDealer.Loot.Moxes.LootDrop:
+  $type: gamedataLootTable_Record
+  lootGenerationType: dropChance
+  maxItemsToLoot: 99
+  minItemsToLoot: 1
+  lootItems:
+    - DrugDealer.Loot.Moxes.LootItem.1
+    - DrugDealer.Loot.Moxes.LootItem.2
+    - DrugDealer.Loot.Moxes.LootItem.3
+    - DrugDealer.Loot.Moxes.LootItem.4
+    - DrugDealer.Loot.Moxes.LootItem.5
+    - DrugDealer.Loot.Moxes.LootItem.6
+    - DrugDealer.Loot.Moxes.LootItem.7
+    - DrugDealer.Loot.Moxes.LootItem.8
+    - DrugDealer.Loot.Moxes.LootItem.9
+    - DrugDealer.Loot.Moxes.LootItem.10
+    - DrugDealer.Loot.Moxes.LootItem.11
+    - DrugDealer.Loot.Moxes.LootItem.12
+    - DrugDealer.Loot.Moxes.LootItem.13
+    - DrugDealer.Loot.Moxes.LootItem.14
+    - DrugDealer.Loot.Moxes.LootItem.15
+    - DrugDealer.Loot.Moxes.LootItem.16
+    - DrugDealer.Loot.Moxes.LootItem.17
+    - DrugDealer.Loot.Moxes.LootItem.18
+
+# Moxes loot items
+DrugDealer.Loot.Moxes.LootItem.1:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Y99
+  dropChance: 0.05
+  dropCountMax: 4
+  dropCountMin: 1
+
+DrugDealer.Loot.Moxes.LootItem.2:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Y99.Material.1
+  dropChance: 0.25
+  dropCountMax: 3
+  dropCountMin: 1
+
+DrugDealer.Loot.Moxes.LootItem.3:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Y99.Material.2
+  dropChance: 0.45
+  dropCountMax: 4
+  dropCountMin: 1
+
+# JoytoysKiss material 1
+DrugDealer.Loot.Moxes.LootItem.4:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.JoytoysKiss.Material.1
+  dropChance: 0.9
+  dropCountMax: 6
+  dropCountMin: 1
+
+# JoytoysKiss material 2
+DrugDealer.Loot.Moxes.LootItem.5:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.JoytoysKiss.Material.2
+  dropChance: 0.9
+  dropCountMax: 6
+  dropCountMin: 1
+
+# SandstormV2 material 1
+DrugDealer.Loot.Moxes.LootItem.6:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.SandstormV2.Material.1
+  dropChance: 0.01
+  dropCountMax: 3
+  dropCountMin: 1
+
+# SandstormV2 material 2
+DrugDealer.Loot.Moxes.LootItem.7:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.SandstormV2.Material.2
+  dropChance: 0.01
+  dropCountMax: 3
+  dropCountMin: 1
+
+# SandstormV2 material 3
+DrugDealer.Loot.Moxes.LootItem.8:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.SandstormV2.Material.3
+  dropChance: 0.01
+  dropCountMax: 3
+  dropCountMin: 1
+
+# BeastOut material 1
+DrugDealer.Loot.Moxes.LootItem.9:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.BeastOut.Material.1
+  dropChance: 0.01
+  dropCountMax: 3
+  dropCountMin: 1
+
+# BeastOut material 2
+DrugDealer.Loot.Moxes.LootItem.10:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.BeastOut.Material.2
+  dropChance: 0.01
+  dropCountMax: 3
+  dropCountMin: 1
+
+# BeastOut material 3
+DrugDealer.Loot.Moxes.LootItem.11:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.BeastOut.Material.3
+  dropChance: 0.01
+  dropCountMax: 3
+  dropCountMin: 1
+
+# Pixie material 1 - Shimmer capsules
+DrugDealer.Loot.Moxes.LootItem.12:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Pixie.Material.1
+  dropChance: 0.7
+  dropCountMax: 6
+  dropCountMin: 1
+
+# Pixie material 2 - Dreambloom powder
+DrugDealer.Loot.Moxes.LootItem.13:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Pixie.Material.2
+  dropChance: 0.5
+  dropCountMax: 5
+  dropCountMin: 1
+
+# Pixie material 3 - Lumin fluid
+DrugDealer.Loot.Moxes.LootItem.14:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Pixie.Material.3
+  dropChance: 0.4
+  dropCountMax: 4
+  dropCountMin: 1
+
+# ThreeMoons material 1 - BD regulator capsules
+DrugDealer.Loot.Moxes.LootItem.15:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.ThreeMoons.Material.1
+  dropChance: 0.8
+  dropCountMax: 5
+  dropCountMin: 1
+
+# ThreeMoons material 2 - Black letheine
+DrugDealer.Loot.Moxes.LootItem.16:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.ThreeMoons.Material.2
+  dropChance: 0.8
+  dropCountMax: 5
+  dropCountMin: 1
+
+# NeonGlow material 1 - Neon tube residue
+DrugDealer.Loot.Moxes.LootItem.17:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.NeonGlow.Material.1
+  dropChance: 0.01
+  dropCountMax: 3
+  dropCountMin: 1
+
+# NeonGlow material 2 - Zetatech neural coolant
+DrugDealer.Loot.Moxes.LootItem.18:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.NeonGlow.Material.2
+  dropChance: 0.01
+  dropCountMax: 3
+  dropCountMin: 1

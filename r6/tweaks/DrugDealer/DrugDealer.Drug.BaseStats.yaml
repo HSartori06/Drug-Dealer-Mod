@@ -1,0 +1,6 @@
+# Raises the maximum value of item stack in both inventory and stash
+DrugDealer.Drug.Quantity.Modifier:
+  $type: gamedataConstantStatModifier_Record
+  value: 999899
+  modifierType: Additive
+  statType: BaseStats.Quantity

@@ -1,0 +1,16 @@
+# Credit v1ld
+
+WorldMap.DrugDealerFilter:
+  $type: WorldMapFilter_Record
+  enumName: VehicleForSaleFilter
+  enumComment: ""
+
+WorldMap.DrugDealerFilterGroup:
+  $type: MappinUIFilterGroup_Record
+  filterName: UI-MappinTypes-DrugDealer
+  filterType: WorldMap.DrugDealerFilter
+  mappins: [ Mappins.GetUpVariant ]
+  shouldCollectMappins: true
+
+WorldMap.WorldMapCustomFiltersList.list:
+  - !append WorldMap.DrugDealerFilterGroup

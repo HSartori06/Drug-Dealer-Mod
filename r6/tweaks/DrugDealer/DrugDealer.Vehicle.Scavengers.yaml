@@ -1,0 +1,342 @@
+DrugDealer.Vehicle.Scavengers.1:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus_scavengers
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_pipewrench_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_fast3_fmelee3_machete_wa_elite
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_scavenger_grunt1_melee1_tireiron_wa
+      weight: 2.0
+
+DrugDealer.Vehicle.Scavengers.2:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_archer_hella_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_butcher3_hmelee2_machete_mb_rare
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_fists_wa
+      weight: 2.0
+
+DrugDealer.Vehicle.Scavengers.3:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus_scavengers
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.bls_se_scavenger_grunt1_melee1_tireiron_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_fists_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_fast2_fmelee2rare_knife_ma_rare
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_pipewrench_wa
+      weight: 2.0
+
+DrugDealer.Vehicle.Scavengers.4:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus_scavengers
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_fists_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_scavenger_grunt1_melee1_tireiron_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_fast3_fmelee3_machete_wa_elite
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_pipewrench_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_butcher3_hmelee2_machete_mb_rare
+      weight: 1.0
+
+DrugDealer.Vehicle.Scavengers.5:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus_scavengers
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_pipewrench_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.bls_se_scavenger_grunt1_melee1_tireiron_ma
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_fists_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.Scavengers.6:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus_scavengers
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_fast2_fmelee2rare_knife_ma_rare
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_fists_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_scavenger_grunt1_melee1_tireiron_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_pipewrench_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_fast3_fmelee3_machete_wa_elite
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.bls_se_scavenger_grunt1_melee1_tireiron_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.Scavengers.7:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus_scavengers
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_butcher3_hmelee2_machete_mb_rare
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_fists_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_pipewrench_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_fast2_fmelee2rare_knife_ma_rare
+      weight: 1.0
+
+DrugDealer.Vehicle.Scavengers.8:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus_scavengers
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_fists_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_pipewrench_ma
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_fast3_fmelee3_machete_wa_elite
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_scavenger_grunt1_melee1_tireiron_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_fists_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.Scavengers.9:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus_scavengers
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_pipewrench_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.bls_se_scavenger_grunt1_melee1_tireiron_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_butcher3_hmelee2_machete_mb_rare
+      weight: 2.0
+
+DrugDealer.Vehicle.Scavengers.10:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus_scavengers
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_fast2_fmelee2rare_knife_ma_rare
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_fists_ma
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_pipewrench_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_scavenger_grunt1_melee1_tireiron_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_fast3_fmelee3_machete_wa_elite
+      weight: 2.0
+
+DrugDealer.Vehicle.Scavengers.11:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus_scavengers
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_fists_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_butcher3_hmelee2_machete_mb_rare
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.bls_se_scavenger_grunt1_melee1_tireiron_ma
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_pipewrench_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.Scavengers.12:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus_scavengers
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.nid_scavenger_grunt1_melee1_tireiron_wa
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_fast2_fmelee2rare_knife_ma_rare
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_fists_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_fast3_fmelee3_machete_wa_elite
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_pipewrench_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_butcher3_hmelee2_machete_mb_rare
+      weight: 1.0
+
+DrugDealer.Vehicle.Scavengers.13:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus_scavengers
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_pipewrench_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.bls_se_scavenger_grunt1_melee1_tireiron_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_fists_wa
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_fast2_fmelee2rare_knife_ma_rare
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_scavenger_grunt1_melee1_tireiron_wa
+      weight: 1.0
+
+DrugDealer.Vehicle.Scavengers.14:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus_scavengers
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_fast3_fmelee3_machete_wa_elite
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_fists_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.Scavengers.15:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus_scavengers
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_fists_wa
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_fast2_fmelee2rare_knife_ma_rare
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.bls_se_scavenger_grunt1_melee1_tireiron_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_pipewrench_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.Scavengers.16:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus_scavengers
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.nid_scavenger_grunt1_melee1_tireiron_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_butcher3_hmelee2_machete_mb_rare
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_fists_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.Scavengers.17:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus_scavengers
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_fast3_fmelee3_machete_wa_elite
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_pipewrench_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_fists_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.bls_se_scavenger_grunt1_melee1_tireiron_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_fast2_fmelee2rare_knife_ma_rare
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_scavenger_grunt1_melee1_tireiron_wa
+      weight: 1.0
+
+DrugDealer.Vehicle.Scavengers.18:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_villefort_cortes_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_pipewrench_ma
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_butcher3_hmelee2_machete_mb_rare
+      weight: 1.0
+
+DrugDealer.Vehicle.Scavengers.19:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus_scavengers
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_fists_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_fast3_fmelee3_machete_wa_elite
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_scavenger_grunt1_melee1_tireiron_wa
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_pipewrench_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.bls_se_scavenger_grunt1_melee1_tireiron_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.Scavengers.20:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus_scavengers
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_fast2_fmelee2rare_knife_ma_rare
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_fists_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_butcher3_hmelee2_machete_mb_rare
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_scavenger_grunt1_melee1_pipewrench_ma
+      weight: 2.0

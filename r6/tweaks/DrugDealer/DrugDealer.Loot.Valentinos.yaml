@@ -1,0 +1,263 @@
+# Valentinos 1
+DrugDealer.Loot.Valentinos.1:
+  $base: Character.valentinos_grunt1_melee1_baseball_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Valentinos.LootDrop
+
+# Valentinos 2
+DrugDealer.Loot.Valentinos.2:
+  $base: Character.valentinos_grunt2_ranged2_ajax_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Valentinos.LootDrop
+
+# Valentinos 3
+DrugDealer.Loot.Valentinos.3:
+  $base: Character.valentinos_grunt2_ranged2_nue_wa
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Valentinos.LootDrop
+
+# Valentinos 4
+DrugDealer.Loot.Valentinos.4:
+  $base: Character.valentinos_grunt4_hmelee2_knife_mb_rare
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Valentinos.LootDrop
+
+# Valentinos 5 elite
+DrugDealer.Loot.Valentinos.5:
+  $base: Character.valentinos_machete_hmelee3_machete_mb_elite
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Valentinos.LootDrop
+
+# Valentinos 6 elite
+DrugDealer.Loot.Valentinos.6:
+  $base: Character.valentinos_shotgun3_shotgun3_testera_ma_elite
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Valentinos.LootDrop
+
+# Valentinos 7 elite
+DrugDealer.Loot.Valentinos.7:
+  $base: Character.valentinos_sniper_sniper3_grad_wa_elite
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Valentinos.LootDrop
+
+# Valentinos 8 v6 rare
+DrugDealer.Loot.Valentinos.8:
+  $base: Character.valentinos_elite2_ranged3_dual_ma_rare
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Valentinos.LootDrop
+
+# Valentinos 9 v6 elite
+DrugDealer.Loot.Valentinos.9:
+  $base: Character.valentinos_elite3_ranged3_dual_ma_elite
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Valentinos.LootDrop
+
+# Valentinos 10 v6
+DrugDealer.Loot.Valentinos.10:
+  $base: Character.valentinos_grunt1_melee1_baseball_wa
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Valentinos.LootDrop
+
+# Valentinos 11 v6
+DrugDealer.Loot.Valentinos.11:
+  $base: Character.valentinos_grunt1_melee1_knife_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Valentinos.LootDrop
+
+# Valentinos 12 v6
+DrugDealer.Loot.Valentinos.12:
+  $base: Character.valentinos_grunt1_ranged1_nova_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Valentinos.LootDrop
+
+# Valentinos 13 v6
+DrugDealer.Loot.Valentinos.13:
+  $base: Character.valentinos_grunt1_ranged1_nova_wa
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Valentinos.LootDrop
+
+# Valentinos 14 v6
+DrugDealer.Loot.Valentinos.14:
+  $base: Character.valentinos_grunt1_ranged1_nue_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Valentinos.LootDrop
+
+# Valentinos 15 v6
+DrugDealer.Loot.Valentinos.15:
+  $base: Character.valentinos_grunt1_ranged1_nue_wa
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Valentinos.LootDrop
+
+# Valentinos 16 v6
+DrugDealer.Loot.Valentinos.16:
+  $base: Character.valentinos_grunt2_melee2_machete_wa
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Valentinos.LootDrop
+
+# Valentinos 17 v6
+DrugDealer.Loot.Valentinos.17:
+  $base: Character.valentinos_grunt2_ranged2_ajax_wa
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Valentinos.LootDrop
+
+# Valentinos 18 v6
+DrugDealer.Loot.Valentinos.18:
+  $base: Character.valentinos_grunt2_ranged2_overture_wa
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Valentinos.LootDrop
+
+# Valentinos 19 v6 rare
+DrugDealer.Loot.Valentinos.19:
+  $base: Character.valentinos_strong2_shotgun2_igla_ma_rare
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Valentinos.LootDrop
+
+# Valentinos loot drop
+DrugDealer.Loot.Valentinos.LootDrop:
+  $type: gamedataLootTable_Record
+  lootGenerationType: dropChance
+  maxItemsToLoot: 99
+  minItemsToLoot: 1
+  lootItems:
+    - DrugDealer.Loot.Valentinos.LootItem.1
+    - DrugDealer.Loot.Valentinos.LootItem.2
+    - DrugDealer.Loot.Valentinos.LootItem.3
+    - DrugDealer.Loot.Valentinos.LootItem.4
+    - DrugDealer.Loot.Valentinos.LootItem.5
+    - DrugDealer.Loot.Valentinos.LootItem.6
+    - DrugDealer.Loot.Valentinos.LootItem.7
+    - DrugDealer.Loot.Valentinos.LootItem.8
+    - DrugDealer.Loot.Valentinos.LootItem.9
+    - DrugDealer.Loot.Valentinos.LootItem.10
+    - DrugDealer.Loot.Valentinos.LootItem.11
+    - DrugDealer.Loot.Valentinos.LootItem.12
+    - DrugDealer.Loot.Valentinos.LootItem.13
+    - DrugDealer.Loot.Valentinos.LootItem.14
+    - DrugDealer.Loot.Valentinos.LootItem.15
+    - DrugDealer.Loot.Valentinos.LootItem.16
+
+# Valentinos loot items
+DrugDealer.Loot.Valentinos.LootItem.1:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Y99
+  dropChance: 0.1
+  dropCountMax: 4
+  dropCountMin: 1
+
+DrugDealer.Loot.Valentinos.LootItem.2:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Y99.Material.1
+  dropChance: 0.5
+  dropCountMax: 4
+  dropCountMin: 1
+
+DrugDealer.Loot.Valentinos.LootItem.3:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Y99.Material.2
+  dropChance: 0.8
+  dropCountMax: 5
+  dropCountMin: 1
+
+# JoytoysKiss material 1
+DrugDealer.Loot.Valentinos.LootItem.4:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.JoytoysKiss.Material.1
+  dropChance: 0.3
+  dropCountMax: 4
+  dropCountMin: 1
+
+# JoytoysKiss material 2
+DrugDealer.Loot.Valentinos.LootItem.5:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.JoytoysKiss.Material.2
+  dropChance: 0.3
+  dropCountMax: 4
+  dropCountMin: 1
+
+# SandstormV2 material 1
+DrugDealer.Loot.Valentinos.LootItem.6:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.SandstormV2.Material.1
+  dropChance: 0.2
+  dropCountMax: 4
+  dropCountMin: 1
+
+# SandstormV2 material 2
+DrugDealer.Loot.Valentinos.LootItem.7:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.SandstormV2.Material.2
+  dropChance: 0.1
+  dropCountMax: 3
+  dropCountMin: 1
+
+# SandstormV2 material 3
+DrugDealer.Loot.Valentinos.LootItem.8:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.SandstormV2.Material.3
+  dropChance: 0.1
+  dropCountMax: 3
+  dropCountMin: 1
+
+# BeastOut material 1
+DrugDealer.Loot.Valentinos.LootItem.9:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.BeastOut.Material.1
+  dropChance: 0.5
+  dropCountMax: 4
+  dropCountMin: 1
+
+# BeastOut material 2
+DrugDealer.Loot.Valentinos.LootItem.10:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.BeastOut.Material.2
+  dropChance: 0.3
+  dropCountMax: 3
+  dropCountMin: 1
+
+# BeastOut material 3
+DrugDealer.Loot.Valentinos.LootItem.11:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.BeastOut.Material.3
+  dropChance: 0.3
+  dropCountMax: 3
+  dropCountMin: 1
+
+# Pixie material 1 - Shimmer capsules
+DrugDealer.Loot.Valentinos.LootItem.12:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Pixie.Material.1
+  dropChance: 0.1
+  dropCountMax: 5
+  dropCountMin: 1
+
+# Pixie material 2 - Dreambloom powder
+DrugDealer.Loot.Valentinos.LootItem.13:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Pixie.Material.2
+  dropChance: 0.1
+  dropCountMax: 4
+  dropCountMin: 1
+
+# Pixie material 3 - Lumin fluid
+DrugDealer.Loot.Valentinos.LootItem.14:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Pixie.Material.3
+  dropChance: 0.1
+  dropCountMax: 3
+  dropCountMin: 1
+
+# NeonGlow material 1 - Neon tube residue
+DrugDealer.Loot.Valentinos.LootItem.15:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.NeonGlow.Material.1
+  dropChance: 1.0
+  dropCountMax: 5
+  dropCountMin: 1
+
+# NeonGlow material 2 - Zetatech neural coolant
+DrugDealer.Loot.Valentinos.LootItem.16:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.NeonGlow.Material.2
+  dropChance: 1.0
+  dropCountMax: 5
+  dropCountMin: 1

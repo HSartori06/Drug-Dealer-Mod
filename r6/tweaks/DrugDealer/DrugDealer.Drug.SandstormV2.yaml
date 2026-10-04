@@ -1,0 +1,52 @@
+# SandstormV2 drug craftable
+DrugDealer.Drug.SandstormV2:
+  $base: Items.BlackLaceV0
+  itemCategory: ItemCategory.Consumable
+  quality: Quality.Rare
+  buyPrice: []
+  sellPrice: []
+  statModifiers: [DrugDealer.Drug.Quantity.Modifier]
+  tags:
+    - DrugDealerDrug
+    - DrugDealerStreetGradeDrug
+    - DrugDealerStreetGradeDrugNoJK
+    - Consumable
+    - Drug
+  displayName: l"DD.Drug.SandstormV2"
+  localizedDescription: l"DD.Drug.SandstormV2.Description"
+  icon:
+    atlasResourcePath: icons\drug_dealer_icons.inkatlas
+    atlasPartName: slot_33
+
+# SandstormV2 material 1
+DrugDealer.Drug.SandstormV2.Material.1:
+  $base: DrugDealer.Drug.Material.Base
+  quality: Quality.Common
+  displayName: l"DD.Drug.SandstormV2.Material1"
+  localizedDescription: l"DD.Drug.SandstormV2.Material1.Description"
+  canDrop: False
+  icon:
+    atlasResourcePath: icons\drug_dealer_icons.inkatlas
+    atlasPartName: slot_03
+
+# SandstormV2 material 2
+DrugDealer.Drug.SandstormV2.Material.2:
+  $base: DrugDealer.Drug.Material.Base
+  quality: Quality.Uncommon
+  displayName: l"DD.Drug.SandstormV2.Material2"
+  localizedDescription: l"DD.Drug.SandstormV2.Material2.Description"
+  canDrop: False
+  icon:
+    atlasResourcePath: icons\drug_dealer_icons.inkatlas
+    atlasPartName: slot_13
+
+# SandstormV2 material 3
+DrugDealer.Drug.SandstormV2.Material.3:
+  $base: DrugDealer.Drug.Material.Base
+  quality: Quality.Uncommon
+  displayName: l"DD.Drug.SandstormV2.Material3"
+  localizedDescription: l"DD.Drug.SandstormV2.Material3.Description"
+  canDrop: False
+  icon:
+    atlasResourcePath: icons\drug_dealer_icons.inkatlas
+    atlasPartName: slot_23

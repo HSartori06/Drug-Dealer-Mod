@@ -1,0 +1,219 @@
+DrugDealer.Vehicle.TygerClaws.1:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_sport1_quadra_turbo_tyger_claw
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.kab_tyger_claws_gangster1_ranged1_copperhead_ma
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.lch_tyger_claws_gangster1_ranged1_nue_wa
+      weight: 1.0
+
+DrugDealer.Vehicle.TygerClaws.2:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_sport2_mizutani_shion_tyger
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.nok_tyger_claws_gangster2_ranged2_copperhead_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.mws_hey_07_tyger_claws_kunoichi_fmelee3_katana_wa_elite
+      weight: 2.0
+
+DrugDealer.Vehicle.TygerClaws.3:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard3_chevalier_emperor_sport
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.the_mox_1_melee2_baseball_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.kab_tyger_claws_gangster2_ranged2_shingen_wa
+      weight: 2.0
+
+DrugDealer.Vehicle.TygerClaws.4:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_sport1_quadra_turbo_tyger_claw
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.lch_tyger_claws_gangster2_ranged2_sidewinder_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_tyger_claws_biker1_ranged1_saratoga_wa
+      weight: 2.0
+
+DrugDealer.Vehicle.TygerClaws.5:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_sport2_mizutani_shion_tyger
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.nok_tyger_claws_gangster1_ranged1_nue_wa
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.sts_wat_nid_02_tyger_claws_biker2_melee2_baseball_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.TygerClaws.6:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard3_chevalier_emperor_sport
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.tyger_claws_kunoichi_fmelee3_katana_wa_elite
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.kab_tyger_claws_gangster1_ranged1_copperhead_wa
+      weight: 1.0
+
+DrugDealer.Vehicle.TygerClaws.7:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_sport1_quadra_turbo_tyger_claw
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.lch_tyger_claws_grunt_medium_range_w_medium
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.nok_tyger_claws_martial_fmelee2_katana_ma_rare
+      weight: 1.0
+
+DrugDealer.Vehicle.TygerClaws.8:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_sport2_mizutani_shion_tyger
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.kab_tyger_claws_gangster2_ranged2_shingen_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_tyger_claws_biker1_melee1_tireiron_wa
+      weight: 2.0
+
+DrugDealer.Vehicle.TygerClaws.9:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard3_chevalier_emperor_sport
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.lch_tyger_claws_gangster2_ranged2_sidewinder_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nok_tyger_claws_gangster1_ranged1_nue_ma
+      weight: 2.0
+
+DrugDealer.Vehicle.TygerClaws.10:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_sport1_quadra_turbo_tyger_claw
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.mws_hey_07_tyger_claws_kunoichi_fmelee3_fists_ma_elite
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nok_tyger_claws_gangster2_ranged2_copperhead_wa
+      weight: 2.0
+
+DrugDealer.Vehicle.TygerClaws.11:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_sport2_mizutani_shion_tyger
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.lch_tyger_claws_gangster1_ranged1_nue_ma
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.kab_tyger_claws_gangster1_ranged1_copperhead_wa
+      weight: 1.0
+
+DrugDealer.Vehicle.TygerClaws.12:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard3_chevalier_emperor_sport
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.sts_wat_nid_02_tyger_claws_biker2_melee2_baseball_ma
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.lch_tyger_claws_gangster2_ranged2_sidewinder_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.TygerClaws.13:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_sport1_quadra_turbo_tyger_claw
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.nid_tyger_claws_biker1_ranged1_saratoga_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.kab_tyger_claws_gangster2_ranged2_shingen_wa
+      weight: 2.0
+
+DrugDealer.Vehicle.TygerClaws.14:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_sport2_mizutani_shion_tyger
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.nok_tyger_claws_martial_fmelee2_katana_ma_rare
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.lch_tyger_claws_grunt_medium_range_w_medium
+      weight: 1.0
+
+DrugDealer.Vehicle.TygerClaws.15:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard3_chevalier_emperor_sport
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.nid_tyger_claws_biker1_melee1_tireiron_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.kab_tyger_claws_gangster2_ranged2_shingen_ma
+      weight: 2.0
+
+DrugDealer.Vehicle.TygerClaws.16:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_sport1_quadra_turbo_tyger_claw
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.lch_tyger_claws_gangster1_ranged1_nue_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.mws_hey_07_tyger_claws_kunoichi_fmelee3_katana_wa_elite
+      weight: 2.0
+
+DrugDealer.Vehicle.TygerClaws.17:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_sport2_mizutani_shion_tyger
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.nok_tyger_claws_gangster2_ranged2_copperhead_ma
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.tyger_claws_kunoichi_fmelee3_katana_wa_elite
+      weight: 1.0
+
+DrugDealer.Vehicle.TygerClaws.18:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard3_chevalier_emperor_sport
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.kab_tyger_claws_gangster1_ranged1_copperhead_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.lch_tyger_claws_gangster2_ranged2_sidewinder_wa
+      weight: 2.0
+
+DrugDealer.Vehicle.TygerClaws.19:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_sport1_quadra_turbo_tyger_claw
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.nok_tyger_claws_gangster1_ranged1_nue_wa
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.mws_hey_07_tyger_claws_kunoichi_fmelee3_fists_ma_elite
+      weight: 1.0
+
+DrugDealer.Vehicle.TygerClaws.20:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_sport2_mizutani_shion_tyger
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.nid_tyger_claws_biker1_ranged1_saratoga_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nok_tyger_claws_gangster2_ranged2_copperhead_wa
+      weight: 2.0

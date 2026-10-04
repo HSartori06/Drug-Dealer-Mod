@@ -1,0 +1,285 @@
+DrugDealer.Vehicle.Maelstrom.1:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_thorton_galena_maelstrom
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt1_ranged1_copperhead_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_ranged2_ajax_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.Maelstrom.2:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_villefort_cortes_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_melee2_machete_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt1_ranged1_lexington_ma
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_ranged2_copperhead_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt1_melee1_knife_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.Maelstrom.3:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_archer_hella_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt1_ranged1_copperhead_wa
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_melee2_hammer_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.Maelstrom.4:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_ranged2_ajax_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt1_melee1_wrench_ma
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt1_ranged1_lexington_wa
+      weight: 1.0
+
+DrugDealer.Vehicle.Maelstrom.5:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_mizutani_hozuki_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_ranged2_copperhead_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_melee2_machete_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt1_ranged1_copperhead_ma
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_melee2_hammer_wa
+      weight: 1.0
+
+DrugDealer.Vehicle.Maelstrom.6:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_thorton_galena_maelstrom
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt1_ranged1_lexington_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_ranged2_ajax_ma
+      weight: 2.0
+
+DrugDealer.Vehicle.Maelstrom.7:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_villefort_cortes_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_melee2_machete_wa
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt1_ranged1_copperhead_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_ranged2_copperhead_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_melee2_hammer_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.Maelstrom.8:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_archer_hella_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt1_melee1_wrench_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_ranged2_ajax_wa
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt1_ranged1_lexington_wa
+      weight: 1.0
+
+DrugDealer.Vehicle.Maelstrom.9:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_ranged2_copperhead_ma
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_melee2_machete_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt1_ranged1_copperhead_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_melee2_hammer_wa
+      weight: 1.0
+
+DrugDealer.Vehicle.Maelstrom.10:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_mizutani_hozuki_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt1_ranged1_lexington_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt1_melee1_knife_ma
+      weight: 2.0
+
+DrugDealer.Vehicle.Maelstrom.11:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_thorton_galena_maelstrom
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_ranged2_ajax_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt1_ranged1_copperhead_wa
+      weight: 1.0
+
+DrugDealer.Vehicle.Maelstrom.12:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_villefort_cortes_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_ranged2_copperhead_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_melee2_hammer_ma
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt1_melee1_wrench_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt1_ranged1_lexington_wa
+      weight: 1.0
+
+DrugDealer.Vehicle.Maelstrom.13:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_archer_hella_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_ranged2_ajax_wa
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_melee2_machete_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt1_ranged1_copperhead_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.Maelstrom.14:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_melee2_hammer_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt1_ranged1_lexington_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_ranged2_copperhead_ma
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt1_melee1_knife_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.Maelstrom.15:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_mizutani_hozuki_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt1_ranged1_copperhead_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_ranged2_ajax_ma
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_melee2_machete_wa
+      weight: 1.0
+
+DrugDealer.Vehicle.Maelstrom.16:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_thorton_galena_maelstrom
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_melee2_hammer_ma
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt1_ranged1_lexington_wa
+      weight: 1.0
+
+DrugDealer.Vehicle.Maelstrom.17:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_villefort_cortes_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt1_melee1_wrench_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_ranged2_copperhead_wa
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_ranged2_ajax_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_melee2_machete_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.Maelstrom.18:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_archer_hella_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt1_ranged1_copperhead_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_melee2_hammer_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt1_melee1_knife_ma
+      weight: 2.0
+
+DrugDealer.Vehicle.Maelstrom.19:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt1_ranged1_lexington_ma
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_ranged2_copperhead_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_melee2_machete_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt1_ranged1_copperhead_wa
+      weight: 1.0
+
+DrugDealer.Vehicle.Maelstrom.20:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_mizutani_hozuki_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_ranged2_ajax_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt2_melee2_hammer_ma
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.nid_maelstrom_grunt1_melee1_wrench_ma
+      weight: 1.0

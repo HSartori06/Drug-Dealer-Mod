@@ -1,0 +1,296 @@
+# TygerClaws 1
+DrugDealer.Loot.TygerClaws.1:
+  $base: Character.kab_tyger_claws_gangster1_ranged1_copperhead_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.TygerClaws.LootDrop
+
+# TygerClaws 2
+DrugDealer.Loot.TygerClaws.2:
+  $base: Character.kab_tyger_claws_gangster1_ranged1_copperhead_wa
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.TygerClaws.LootDrop
+
+# TygerClaws 3
+DrugDealer.Loot.TygerClaws.3:
+  $base: Character.kab_tyger_claws_gangster2_ranged2_shingen_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.TygerClaws.LootDrop
+
+# TygerClaws 4
+DrugDealer.Loot.TygerClaws.4:
+  $base: Character.kab_tyger_claws_gangster2_ranged2_shingen_wa
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.TygerClaws.LootDrop
+
+# TygerClaws 5
+DrugDealer.Loot.TygerClaws.5:
+  $base: Character.lch_tyger_claws_gangster1_ranged1_nue_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.TygerClaws.LootDrop
+
+# TygerClaws 6
+DrugDealer.Loot.TygerClaws.6:
+  $base: Character.lch_tyger_claws_gangster1_ranged1_nue_wa
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.TygerClaws.LootDrop
+
+# TygerClaws 7
+DrugDealer.Loot.TygerClaws.7:
+  $base: Character.lch_tyger_claws_gangster2_ranged2_sidewinder_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.TygerClaws.LootDrop
+
+# TygerClaws 8
+DrugDealer.Loot.TygerClaws.8:
+  $base: Character.lch_tyger_claws_gangster2_ranged2_sidewinder_wa
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.TygerClaws.LootDrop
+
+# TygerClaws 9
+DrugDealer.Loot.TygerClaws.9:
+  $base: Character.lch_tyger_claws_grunt_medium_range_w_medium
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.TygerClaws.LootDrop
+
+# TygerClaws 10
+DrugDealer.Loot.TygerClaws.10:
+  $base: Character.nok_tyger_claws_gangster1_ranged1_nue_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.TygerClaws.LootDrop
+
+# TygerClaws 11
+DrugDealer.Loot.TygerClaws.11:
+  $base: Character.nok_tyger_claws_gangster1_ranged1_nue_wa
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.TygerClaws.LootDrop
+
+# TygerClaws 12
+DrugDealer.Loot.TygerClaws.12:
+  $base: Character.nok_tyger_claws_gangster2_ranged2_copperhead_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.TygerClaws.LootDrop
+
+# TygerClaws 13
+DrugDealer.Loot.TygerClaws.13:
+  $base: Character.nok_tyger_claws_gangster2_ranged2_copperhead_wa
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.TygerClaws.LootDrop
+
+# TygerClaws 14
+DrugDealer.Loot.TygerClaws.14:
+  $base: Character.sts_wat_nid_02_tyger_claws_biker2_melee2_baseball_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.TygerClaws.LootDrop
+
+# TygerClaws 15
+DrugDealer.Loot.TygerClaws.15:
+  $base: Character.nid_tyger_claws_biker1_melee1_tireiron_wa
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.TygerClaws.LootDrop
+
+# TygerClaws 16
+DrugDealer.Loot.TygerClaws.16:
+  $base: Character.nid_tyger_claws_biker1_ranged1_saratoga_wa
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.TygerClaws.LootDrop
+
+# TygerClaws 17 elite
+DrugDealer.Loot.TygerClaws.17:
+  $base: Character.nok_tyger_claws_martial_fmelee2_katana_ma_rare
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.TygerClaws.LootDrop
+
+# TygerClaws 18 elite
+DrugDealer.Loot.TygerClaws.18:
+  $base: Character.mws_hey_07_tyger_claws_kunoichi_fmelee3_fists_ma_elite
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.TygerClaws.LootDrop
+
+# TygerClaws 19 elite
+DrugDealer.Loot.TygerClaws.19:
+  $base: Character.mws_hey_07_tyger_claws_kunoichi_fmelee3_katana_wa_elite
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.TygerClaws.LootDrop
+
+# TygerClaws 20 elite
+DrugDealer.Loot.TygerClaws.20:
+  $base: Character.tyger_claws_kunoichi_fmelee3_katana_wa_elite
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.TygerClaws.LootDrop
+
+# TygerClaws loot drop
+DrugDealer.Loot.TygerClaws.LootDrop:
+  $type: gamedataLootTable_Record
+  lootGenerationType: dropChance
+  maxItemsToLoot: 99
+  minItemsToLoot: 1
+  lootItems:
+    - DrugDealer.Loot.TygerClaws.LootItem.1
+    - DrugDealer.Loot.TygerClaws.LootItem.2
+    - DrugDealer.Loot.TygerClaws.LootItem.3
+    - DrugDealer.Loot.TygerClaws.LootItem.4
+    - DrugDealer.Loot.TygerClaws.LootItem.5
+    - DrugDealer.Loot.TygerClaws.LootItem.6
+    - DrugDealer.Loot.TygerClaws.LootItem.7
+    - DrugDealer.Loot.TygerClaws.LootItem.8
+    - DrugDealer.Loot.TygerClaws.LootItem.9
+    - DrugDealer.Loot.TygerClaws.LootItem.10
+    - DrugDealer.Loot.TygerClaws.LootItem.11
+    - DrugDealer.Loot.TygerClaws.LootItem.12
+    - DrugDealer.Loot.TygerClaws.LootItem.13
+    - DrugDealer.Loot.TygerClaws.LootItem.14
+    - DrugDealer.Loot.TygerClaws.LootItem.15
+    - DrugDealer.Loot.TygerClaws.LootItem.16
+    - DrugDealer.Loot.TygerClaws.LootItem.17
+    - DrugDealer.Loot.TygerClaws.LootItem.18
+    - DrugDealer.Loot.TygerClaws.LootItem.19
+
+# TygerClaws loot items
+DrugDealer.Loot.TygerClaws.LootItem.1:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Y99
+  dropChance: 0.2
+  dropCountMax: 4
+  dropCountMin: 1
+
+DrugDealer.Loot.TygerClaws.LootItem.2:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Y99.Material.1
+  dropChance: 0.25
+  dropCountMax: 4
+  dropCountMin: 1
+
+DrugDealer.Loot.TygerClaws.LootItem.3:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Y99.Material.2
+  dropChance: 0.45
+  dropCountMax: 5
+  dropCountMin: 1
+
+# JoytoysKiss material 1
+DrugDealer.Loot.TygerClaws.LootItem.4:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.JoytoysKiss.Material.1
+  dropChance: 0.6
+  dropCountMax: 5
+  dropCountMin: 1
+
+# JoytoysKiss material 2
+DrugDealer.Loot.TygerClaws.LootItem.5:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.JoytoysKiss.Material.2
+  dropChance: 0.6
+  dropCountMax: 5
+  dropCountMin: 1
+
+# SandstormV2 material 1
+DrugDealer.Loot.TygerClaws.LootItem.6:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.SandstormV2.Material.1
+  dropChance: 0.01
+  dropCountMax: 3
+  dropCountMin: 1
+
+# SandstormV2 material 2
+DrugDealer.Loot.TygerClaws.LootItem.7:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.SandstormV2.Material.2
+  dropChance: 0.01
+  dropCountMax: 3
+  dropCountMin: 1
+
+# SandstormV2 material 3
+DrugDealer.Loot.TygerClaws.LootItem.8:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.SandstormV2.Material.3
+  dropChance: 0.01
+  dropCountMax: 3
+  dropCountMin: 1
+
+# BeastOut material 1
+DrugDealer.Loot.TygerClaws.LootItem.9:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.BeastOut.Material.1
+  dropChance: 0.01
+  dropCountMax: 3
+  dropCountMin: 1
+
+# BeastOut material 2
+DrugDealer.Loot.TygerClaws.LootItem.10:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.BeastOut.Material.2
+  dropChance: 0.01
+  dropCountMax: 3
+  dropCountMin: 1
+
+# BeastOut material 3
+DrugDealer.Loot.TygerClaws.LootItem.11:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.BeastOut.Material.3
+  dropChance: 0.01
+  dropCountMax: 3
+  dropCountMin: 1
+
+# Pixie material 1 - Shimmer capsules
+DrugDealer.Loot.TygerClaws.LootItem.12:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Pixie.Material.1
+  dropChance: 0.6
+  dropCountMax: 6
+  dropCountMin: 1
+
+# Pixie material 2 - Dreambloom powder
+DrugDealer.Loot.TygerClaws.LootItem.13:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Pixie.Material.2
+  dropChance: 0.5
+  dropCountMax: 5
+  dropCountMin: 1
+
+# Pixie material 3 - Lumin fluid
+DrugDealer.Loot.TygerClaws.LootItem.14:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Pixie.Material.3
+  dropChance: 0.4
+  dropCountMax: 4
+  dropCountMin: 1
+
+# EmperorsEyes material 1 - Neuro crown tabs
+DrugDealer.Loot.TygerClaws.LootItem.15:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.EmperorsEyes.Material.1
+  dropChance: 0.75
+  dropCountMax: 5
+  dropCountMin: 1
+
+# EmperorsEyes material 2 - Ogon powder
+DrugDealer.Loot.TygerClaws.LootItem.16:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.EmperorsEyes.Material.2
+  dropChance: 0.75
+  dropCountMax: 5
+  dropCountMin: 1
+
+# EmperorsEyes material 3 - Claws' serum
+DrugDealer.Loot.TygerClaws.LootItem.17:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.EmperorsEyes.Material.3
+  dropChance: 0.5
+  dropCountMax: 4
+  dropCountMin: 1
+
+# NeonGlow material 1 - Neon tube residue
+DrugDealer.Loot.TygerClaws.LootItem.18:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.NeonGlow.Material.1
+  dropChance: 0.01
+  dropCountMax: 3
+  dropCountMin: 1
+
+# NeonGlow material 2 - Zetatech neural coolant
+DrugDealer.Loot.TygerClaws.LootItem.19:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.NeonGlow.Material.2
+  dropChance: 0.01
+  dropCountMax: 3
+  dropCountMin: 1

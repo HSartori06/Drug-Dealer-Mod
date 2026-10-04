@@ -1,0 +1,291 @@
+DrugDealer.Vehicle.Animals.1:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_thorton_galena
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.dtn_animals_grunt1_ranged1_nova_mb
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_animals_grunt2_ranged2_pulsar_mb
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.cpz_animals_bouncer2_melee2_fists_mb
+      weight: 1.0
+
+DrugDealer.Vehicle.Animals.2:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_villefort_cortes
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.dtn_animals_grunt2_melee2_machete_mb
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.cvi_animals_bouncer1_ranged1_omaha_mb
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.jpn_animals_bouncer2_ranged2_omaha_mb
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.dtn_animals_grunt1_melee1_baseball_mb
+      weight: 1.0
+
+DrugDealer.Vehicle.Animals.3:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.cvi_animals_grunt2_shotgun2_igla_wba_rare
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.dtn_animals_elite2_ranged3_burya_mba_rare
+      weight: 2.0
+
+DrugDealer.Vehicle.Animals.4:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_archer_hella_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.cvi_animals_bouncer1_melee1_baton_mb
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.dtn_animals_grunt1_ranged1_pulsar_mb
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.jpn_animals_bouncer2_ranged2_burya_mb
+      weight: 1.0
+
+DrugDealer.Vehicle.Animals.5:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_villefort_cortes_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.dtn_animals_grunt2_ranged2_overture_mb
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_animals_grunt1_melee1_baseball_mb
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.dtn_animals_grunt_melee_m_easy
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.cvi_animals_grunt2_ranged2_overture_mb
+      weight: 1.0
+
+DrugDealer.Vehicle.Animals.6:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_mizutani_hozuki_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.jpn_animals_bouncer2_ranged2_omaha_mb
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.dtn_animals_grunt1_ranged1_nova_mb
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_animals_grunt2_shotgun2_igla_wba_rare
+      weight: 1.0
+
+DrugDealer.Vehicle.Animals.7:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.dtn_animals_elite2_ranged3_burya_mba_rare
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cpz_animals_bouncer2_melee2_fists_mb
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.cvi_animals_bouncer1_ranged1_omaha_mb
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.dtn_animals_grunt2_melee2_machete_mb
+      weight: 1.0
+
+DrugDealer.Vehicle.Animals.8:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_thorton_galena
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.cvi_animals_grunt2_ranged2_pulsar_mb
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.dtn_animals_grunt1_melee1_baseball_mb
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.cvi_animals_bouncer1_melee1_baton_mb
+      weight: 1.0
+
+DrugDealer.Vehicle.Animals.9:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_villefort_cortes
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.dtn_animals_grunt1_ranged1_pulsar_mb
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.jpn_animals_bouncer2_ranged2_burya_mb
+      weight: 2.0
+
+DrugDealer.Vehicle.Animals.10:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_archer_hella_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.dtn_animals_grunt_melee_m_easy
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_animals_grunt2_ranged2_overture_mb
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.dtn_animals_grunt1_ranged1_nova_mb
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.jpn_animals_bouncer2_ranged2_omaha_mb
+      weight: 1.0
+
+DrugDealer.Vehicle.Animals.11:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.dtn_animals_grunt2_ranged2_overture_mb
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.cvi_animals_grunt1_melee1_baseball_mb
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_animals_grunt2_shotgun2_igla_wba_rare
+      weight: 1.0
+
+DrugDealer.Vehicle.Animals.12:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_villefort_cortes_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.cpz_animals_bouncer2_melee2_fists_mb
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.dtn_animals_elite2_ranged3_burya_mba_rare
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.dtn_animals_grunt2_melee2_machete_mb
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_animals_bouncer1_ranged1_omaha_mb
+      weight: 1.0
+
+DrugDealer.Vehicle.Animals.13:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_mizutani_hozuki_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.cvi_animals_bouncer1_melee1_baton_mb
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.dtn_animals_grunt1_ranged1_pulsar_mb
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.jpn_animals_bouncer2_ranged2_burya_mb
+      weight: 2.0
+
+DrugDealer.Vehicle.Animals.14:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.cvi_animals_grunt2_ranged2_pulsar_mb
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.dtn_animals_grunt1_melee1_baseball_mb
+      weight: 2.0
+
+DrugDealer.Vehicle.Animals.15:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_thorton_galena
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.dtn_animals_grunt_melee_m_easy
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_animals_grunt2_ranged2_overture_mb
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.jpn_animals_bouncer2_ranged2_omaha_mb
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.dtn_animals_grunt1_ranged1_nova_mb
+      weight: 1.0
+
+DrugDealer.Vehicle.Animals.16:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_villefort_cortes
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.dtn_animals_grunt2_ranged2_overture_mb
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_animals_grunt1_melee1_baseball_mb
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_animals_grunt2_shotgun2_igla_wba_rare
+      weight: 2.0
+
+DrugDealer.Vehicle.Animals.17:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_archer_hella_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.cpz_animals_bouncer2_melee2_fists_mb
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.dtn_animals_elite2_ranged3_burya_mba_rare
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.cvi_animals_bouncer1_melee1_baton_mb
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.dtn_animals_grunt2_melee2_machete_mb
+      weight: 1.0
+
+DrugDealer.Vehicle.Animals.18:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.dtn_animals_grunt1_ranged1_pulsar_mb
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.jpn_animals_bouncer2_ranged2_burya_mb
+      weight: 1.0
+
+DrugDealer.Vehicle.Animals.19:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_mizutani_hozuki_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.cvi_animals_bouncer1_ranged1_omaha_mb
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.dtn_animals_grunt1_ranged1_nova_mb
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.cvi_animals_grunt2_ranged2_pulsar_mb
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.dtn_animals_grunt_melee_m_easy
+      weight: 1.0
+
+DrugDealer.Vehicle.Animals.20:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_villefort_cortes_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.jpn_animals_bouncer2_ranged2_omaha_mb
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.dtn_animals_grunt1_melee1_baseball_mb
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.cvi_animals_grunt2_ranged2_overture_mb
+      weight: 1.0

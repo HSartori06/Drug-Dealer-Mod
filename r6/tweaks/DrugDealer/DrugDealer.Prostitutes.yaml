@@ -1,0 +1,16 @@
+# Prostitutes
+DrugDealer.Prostitutes.1:
+  $base: Character.ProstituteFemaleDE
+  baseAttitudeGroup: player
+
+DrugDealer.Prostitutes.2:
+  $base: Character.hey_gle_prostitute_female
+  baseAttitudeGroup: player
+
+DrugDealer.Prostitutes.3:
+  $base: Character.SexworkerFemaleDoll
+  baseAttitudeGroup: player
+
+DrugDealer.Prostitutes.4:
+  $base: Character.DollFemale
+  baseAttitudeGroup: player

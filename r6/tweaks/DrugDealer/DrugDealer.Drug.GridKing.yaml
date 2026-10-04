@@ -1,0 +1,52 @@
+# GridKing drug craftable
+DrugDealer.Drug.GridKing:
+  $base: Items.BlackLaceV0
+  itemCategory: ItemCategory.Consumable
+  quality: Quality.Epic
+  buyPrice: []
+  sellPrice: []
+  statModifiers: [DrugDealer.Drug.Quantity.Modifier]
+  tags:
+    - DrugDealerDrug
+    - DrugDealerStreetGradeDrug
+    - DrugDealerStreetGradeDrugNoJK
+    - Consumable
+    - Drug
+  displayName: l"DD.Drug.GridKing"
+  localizedDescription: l"DD.Drug.GridKing.Description"
+  icon:
+    atlasResourcePath: icons\drug_dealer_icons.inkatlas
+    atlasPartName: slot_36
+
+# GridKing material 1
+DrugDealer.Drug.GridKing.Material.1:
+  $base: DrugDealer.Drug.Material.Base
+  quality: Quality.Epic
+  displayName: l"DD.Drug.GridKing.Material1"
+  localizedDescription: l"DD.Drug.GridKing.Material1.Description"
+  canDrop: False
+  icon:
+    atlasResourcePath: icons\drug_dealer_icons.inkatlas
+    atlasPartName: slot_06
+
+# GridKing material 2
+DrugDealer.Drug.GridKing.Material.2:
+  $base: DrugDealer.Drug.Material.Base
+  quality: Quality.Epic
+  displayName: l"DD.Drug.GridKing.Material2"
+  localizedDescription: l"DD.Drug.GridKing.Material2.Description"
+  canDrop: False
+  icon:
+    atlasResourcePath: icons\drug_dealer_icons.inkatlas
+    atlasPartName: slot_16
+
+# GridKing material 3
+DrugDealer.Drug.GridKing.Material.3:
+  $base: DrugDealer.Drug.Material.Base
+  quality: Quality.Epic
+  displayName: l"DD.Drug.GridKing.Material3"
+  localizedDescription: l"DD.Drug.GridKing.Material3.Description"
+  canDrop: False
+  icon:
+    atlasResourcePath: icons\drug_dealer_icons.inkatlas
+    atlasPartName: slot_26

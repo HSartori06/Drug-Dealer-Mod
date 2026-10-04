@@ -1,0 +1,52 @@
+# BeastOut drug craftable
+DrugDealer.Drug.BeastOut:
+  $base: Items.BlackLaceV0
+  itemCategory: ItemCategory.Consumable
+  quality: Quality.Rare
+  buyPrice: []
+  sellPrice: []
+  statModifiers: [DrugDealer.Drug.Quantity.Modifier]
+  tags:
+    - DrugDealerDrug
+    - DrugDealerStreetGradeDrug
+    - DrugDealerStreetGradeDrugNoJK
+    - Consumable
+    - Drug
+  displayName: l"DD.Drug.BeastOut"
+  localizedDescription: l"DD.Drug.BeastOut.Description"
+  icon:
+    atlasResourcePath: icons\drug_dealer_icons.inkatlas
+    atlasPartName: slot_40
+
+# BeastOut material 1
+DrugDealer.Drug.BeastOut.Material.1:
+  $base: DrugDealer.Drug.Material.Base
+  quality: Quality.Uncommon
+  displayName: l"DD.Drug.BeastOut.Material1"
+  localizedDescription: l"DD.Drug.BeastOut.Material1.Description"
+  canDrop: False
+  icon:
+    atlasResourcePath: icons\drug_dealer_icons.inkatlas
+    atlasPartName: slot_10
+
+# BeastOut material 2
+DrugDealer.Drug.BeastOut.Material.2:
+  $base: DrugDealer.Drug.Material.Base
+  quality: Quality.Rare
+  displayName: l"DD.Drug.BeastOut.Material2"
+  localizedDescription: l"DD.Drug.BeastOut.Material2.Description"
+  canDrop: False
+  icon:
+    atlasResourcePath: icons\drug_dealer_icons.inkatlas
+    atlasPartName: slot_20
+
+# BeastOut material 3
+DrugDealer.Drug.BeastOut.Material.3:
+  $base: DrugDealer.Drug.Material.Base
+  quality: Quality.Rare
+  displayName: l"DD.Drug.BeastOut.Material3"
+  localizedDescription: l"DD.Drug.BeastOut.Material3.Description"
+  canDrop: False
+  icon:
+    atlasResourcePath: icons\drug_dealer_icons.inkatlas
+    atlasPartName: slot_30

@@ -1,0 +1,41 @@
+# JoytoysKiss drug craftable
+DrugDealer.Drug.JoytoysKiss:
+  $base: Items.BlackLaceV0
+  itemCategory: ItemCategory.Consumable
+  quality: Quality.Rare
+  buyPrice: []
+  sellPrice: []
+  statModifiers: [DrugDealer.Drug.Quantity.Modifier]
+  tags:
+    - DrugDealerDrug
+    - DrugDealerStreetGradeDrug
+    - DrugDealerJoytoysKiss
+    - Consumable
+    - Drug
+  displayName: l"DD.Drug.JoytoysKiss"
+  localizedDescription: l"DD.Drug.JoytoysKiss.Description"
+  icon:
+    atlasResourcePath: icons\drug_dealer_icons.inkatlas
+    atlasPartName: slot_32
+
+# JoytoysKiss material 1
+DrugDealer.Drug.JoytoysKiss.Material.1:
+  $base: DrugDealer.Drug.Material.Base
+  quality: Quality.Uncommon
+  displayName: l"DD.Drug.JoytoysKiss.Material1"
+  localizedDescription: l"DD.Drug.JoytoysKiss.Material1.Description"
+  canDrop: False
+  icon:
+    atlasResourcePath: icons\drug_dealer_icons.inkatlas
+    atlasPartName: slot_02
+
+# JoytoysKiss material 2
+DrugDealer.Drug.JoytoysKiss.Material.2:
+  $base: DrugDealer.Drug.Material.Base
+  quality: Quality.Uncommon
+  displayName: l"DD.Drug.JoytoysKiss.Material2"
+  localizedDescription: l"DD.Drug.JoytoysKiss.Material2.Description"
+  canDrop: False
+  icon:
+    atlasResourcePath: icons\drug_dealer_icons.inkatlas
+    atlasPartName: slot_22

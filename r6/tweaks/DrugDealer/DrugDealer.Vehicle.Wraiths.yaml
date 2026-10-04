@@ -1,0 +1,276 @@
+DrugDealer.Vehicle.Wraiths.1:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_thorton_galena_nomad_wraith
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_ranged1_nova_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt2_ranged2_pulsar_wa
+      weight: 2.0
+
+DrugDealer.Vehicle.Wraiths.2:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_villefort_cortes_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_ranged1_pulsar_wa
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_warrior3_shotgun3_palica_ma_elite
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_ranged1_nova_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_melee1_tireiron_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.Wraiths.3:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_archer_hella_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.wraiths_operator3_shotgun2_crusher_ma_rare
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt2_ranged2_pulsar_ma
+      weight: 2.0
+
+DrugDealer.Vehicle.Wraiths.4:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_mizutani_hozuki_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_ranged1_pulsar_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_ranged1_nova_wa
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt2_ranged2_pulsar_wa
+      weight: 1.0
+
+DrugDealer.Vehicle.Wraiths.5:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_thorton_galena_nomad_wraith
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.wraiths_warrior3_shotgun3_palica_ma_elite
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_ranged1_pulsar_wa
+      weight: 1.0
+
+DrugDealer.Vehicle.Wraiths.6:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_villefort_cortes_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_melee1_tireiron_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt2_ranged2_pulsar_ma
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_operator3_shotgun2_crusher_ma_rare
+      weight: 1.0
+
+DrugDealer.Vehicle.Wraiths.7:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_archer_hella_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_ranged1_pulsar_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt2_ranged2_pulsar_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_ranged1_nova_wa
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_melee1_ironpipe_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.Wraiths.8:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_thorton_galena_nomad_wraith
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.wraiths_warrior3_shotgun3_palica_ma_elite
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_ranged1_nova_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.Wraiths.9:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_thorton_galena_nomad_wraith
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_ranged1_pulsar_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_melee1_tireiron_ma
+      weight: 2.0
+
+DrugDealer.Vehicle.Wraiths.10:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_villefort_cortes_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.wraiths_operator3_shotgun2_crusher_ma_rare
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_ranged1_pulsar_ma
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_ranged1_nova_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_melee1_ironpipe_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.Wraiths.11:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_archer_hella_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt2_ranged2_pulsar_wa
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_ranged1_nova_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_warrior3_shotgun3_palica_ma_elite
+      weight: 1.0
+
+DrugDealer.Vehicle.Wraiths.12:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_mizutani_hozuki_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_melee1_tireiron_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_ranged1_pulsar_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt2_ranged2_pulsar_ma
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_operator3_shotgun2_crusher_ma_rare
+      weight: 1.0
+
+DrugDealer.Vehicle.Wraiths.13:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_thorton_galena_nomad_wraith
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_ranged1_nova_wa
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_ranged1_pulsar_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.Wraiths.14:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_villefort_cortes_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_melee1_ironpipe_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt2_ranged2_pulsar_wa
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_ranged1_nova_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_melee1_tireiron_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.Wraiths.15:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_archer_hella_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.wraiths_warrior3_shotgun3_palica_ma_elite
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_ranged1_pulsar_wa
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt2_ranged2_pulsar_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.Wraiths.16:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_mizutani_hozuki_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.wraiths_operator3_shotgun2_crusher_ma_rare
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_ranged1_nova_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_ranged1_pulsar_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_ranged1_nova_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.Wraiths.17:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_thorton_galena_nomad_wraith
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt2_ranged2_pulsar_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_melee1_ironpipe_ma
+      weight: 2.0
+
+DrugDealer.Vehicle.Wraiths.18:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_villefort_cortes_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt2_ranged2_pulsar_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_ranged1_pulsar_wa
+      weight: 2.0
+
+DrugDealer.Vehicle.Wraiths.19:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_archer_hella_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_ranged1_nova_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_warrior3_shotgun3_palica_ma_elite
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_ranged1_nova_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_operator3_shotgun2_crusher_ma_rare
+      weight: 1.0
+
+DrugDealer.Vehicle.Wraiths.20:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_mizutani_hozuki_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_ranged1_pulsar_ma
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt1_melee1_tireiron_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.wraiths_grunt2_ranged2_pulsar_wa
+      weight: 1.0

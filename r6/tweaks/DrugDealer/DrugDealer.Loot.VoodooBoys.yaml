@@ -1,0 +1,236 @@
+# VoodooBoys 1
+DrugDealer.Loot.VoodooBoys.1:
+  $base: Character.voodooboys_grunt1_ranged2_saratoga_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.VoodooBoys.LootDrop
+
+# VoodooBoys 2
+DrugDealer.Loot.VoodooBoys.2:
+  $base: Character.voodooboys_grunt1_ranged2_saratoga_wa
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.VoodooBoys.LootDrop
+
+# VoodooBoys 3
+DrugDealer.Loot.VoodooBoys.3:
+  $base: Character.voodooboys_grunt1_ranged2_sidewinder_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.VoodooBoys.LootDrop
+
+# VoodooBoys 4
+DrugDealer.Loot.VoodooBoys.4:
+  $base: Character.voodooboys_grunt1_ranged2_sidewinder_wa
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.VoodooBoys.LootDrop
+
+# VoodooBoys 5
+DrugDealer.Loot.VoodooBoys.5:
+  $base: Character.voodooboys_grunt1coat_shotgun2_palica_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.VoodooBoys.LootDrop
+
+# VoodooBoys 6
+DrugDealer.Loot.VoodooBoys.6:
+  $base: Character.voodooboys_grunt2coat_shotgun2_palica_wa
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.VoodooBoys.LootDrop
+
+# VoodooBoys 7 elite
+DrugDealer.Loot.VoodooBoys.7:
+  $base: Character.voodooboys_grunt3coat_shotgun3_zhuo_ma_elite
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.VoodooBoys.LootDrop
+
+# VoodooBoys 8 elite
+DrugDealer.Loot.VoodooBoys.8:
+  $base: Character.voodooboys_netrunner2_netrunner2_lexington_ma_rare
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.VoodooBoys.LootDrop
+
+# VoodooBoys 9 elite
+DrugDealer.Loot.VoodooBoys.9:
+  $base: Character.voodooboys_netrunner2_netrunner2_lexington_wa_rare
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.VoodooBoys.LootDrop
+
+# VoodooBoys 10 elite
+DrugDealer.Loot.VoodooBoys.10:
+  $base: Character.voodooboys_netrunner3_netrunner3_quasar_wa_elite
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.VoodooBoys.LootDrop
+
+# VoodooBoys loot drop
+DrugDealer.Loot.VoodooBoys.LootDrop:
+  $type: gamedataLootTable_Record
+  lootGenerationType: dropChance
+  maxItemsToLoot: 99
+  minItemsToLoot: 1
+  lootItems:
+    - DrugDealer.Loot.VoodooBoys.LootItem.1
+    - DrugDealer.Loot.VoodooBoys.LootItem.2
+    - DrugDealer.Loot.VoodooBoys.LootItem.3
+    - DrugDealer.Loot.VoodooBoys.LootItem.4
+    - DrugDealer.Loot.VoodooBoys.LootItem.5
+    - DrugDealer.Loot.VoodooBoys.LootItem.6
+    - DrugDealer.Loot.VoodooBoys.LootItem.7
+    - DrugDealer.Loot.VoodooBoys.LootItem.8
+    - DrugDealer.Loot.VoodooBoys.LootItem.9
+    - DrugDealer.Loot.VoodooBoys.LootItem.10
+    - DrugDealer.Loot.VoodooBoys.LootItem.11
+    - DrugDealer.Loot.VoodooBoys.LootItem.12
+    - DrugDealer.Loot.VoodooBoys.LootItem.13
+    - DrugDealer.Loot.VoodooBoys.LootItem.14
+    - DrugDealer.Loot.VoodooBoys.LootItem.15
+    - DrugDealer.Loot.VoodooBoys.LootItem.16
+    - DrugDealer.Loot.VoodooBoys.LootItem.17
+    - DrugDealer.Loot.VoodooBoys.LootItem.18
+    - DrugDealer.Loot.VoodooBoys.LootItem.19
+
+# VoodooBoys loot items
+DrugDealer.Loot.VoodooBoys.LootItem.1:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Y99
+  dropChance: 0.2
+  dropCountMax: 3
+  dropCountMin: 1
+
+DrugDealer.Loot.VoodooBoys.LootItem.2:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Y99.Material.1
+  dropChance: 0.5
+  dropCountMax: 4
+  dropCountMin: 1
+
+DrugDealer.Loot.VoodooBoys.LootItem.3:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Y99.Material.2
+  dropChance: 0.8
+  dropCountMax: 5
+  dropCountMin: 1
+
+# JoytoysKiss material 1
+DrugDealer.Loot.VoodooBoys.LootItem.4:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.JoytoysKiss.Material.1
+  dropChance: 0.25
+  dropCountMax: 4
+  dropCountMin: 1
+
+# JoytoysKiss material 2
+DrugDealer.Loot.VoodooBoys.LootItem.5:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.JoytoysKiss.Material.2
+  dropChance: 0.25
+  dropCountMax: 4
+  dropCountMin: 1
+
+# SandstormV2 material 1
+DrugDealer.Loot.VoodooBoys.LootItem.6:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.SandstormV2.Material.1
+  dropChance: 0.05
+  dropCountMax: 4
+  dropCountMin: 1
+
+# SandstormV2 material 2
+DrugDealer.Loot.VoodooBoys.LootItem.7:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.SandstormV2.Material.2
+  dropChance: 0.05
+  dropCountMax: 3
+  dropCountMin: 1
+
+# SandstormV2 material 3
+DrugDealer.Loot.VoodooBoys.LootItem.8:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.SandstormV2.Material.3
+  dropChance: 0.05
+  dropCountMax: 3
+  dropCountMin: 1
+
+# BeastOut material 1
+DrugDealer.Loot.VoodooBoys.LootItem.9:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.BeastOut.Material.1
+  dropChance: 0.3
+  dropCountMax: 4
+  dropCountMin: 1
+
+# BeastOut material 2
+DrugDealer.Loot.VoodooBoys.LootItem.10:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.BeastOut.Material.2
+  dropChance: 0.2
+  dropCountMax: 3
+  dropCountMin: 1
+
+# BeastOut material 3
+DrugDealer.Loot.VoodooBoys.LootItem.11:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.BeastOut.Material.3
+  dropChance: 0.2
+  dropCountMax: 3
+  dropCountMin: 1
+
+# Pixie material 1 - Shimmer capsules
+DrugDealer.Loot.VoodooBoys.LootItem.12:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Pixie.Material.1
+  dropChance: 0.4
+  dropCountMax: 4
+  dropCountMin: 1
+
+# Pixie material 2 - Dreambloom powder
+DrugDealer.Loot.VoodooBoys.LootItem.13:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Pixie.Material.2
+  dropChance: 0.3
+  dropCountMax: 4
+  dropCountMin: 1
+
+# Pixie material 3 - Lumin fluid
+DrugDealer.Loot.VoodooBoys.LootItem.14:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Pixie.Material.3
+  dropChance: 0.2
+  dropCountMax: 3
+  dropCountMin: 1
+
+# NeonGlow material 1 - Neon tube residue
+DrugDealer.Loot.VoodooBoys.LootItem.15:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.NeonGlow.Material.1
+  dropChance: 0.1
+  dropCountMax: 3
+  dropCountMin: 1
+
+# NeonGlow material 2 - Zetatech neural coolant
+DrugDealer.Loot.VoodooBoys.LootItem.16:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.NeonGlow.Material.2
+  dropChance: 0.1
+  dropCountMax: 3
+  dropCountMin: 1
+
+# GridKing material 1
+DrugDealer.Loot.VoodooBoys.LootItem.17:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.GridKing.Material.1
+  dropChance: 0.75
+  dropCountMax: 4
+  dropCountMin: 1
+
+# GridKing material 2
+DrugDealer.Loot.VoodooBoys.LootItem.18:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.GridKing.Material.2
+  dropChance: 0.75
+  dropCountMax: 4
+  dropCountMin: 1
+
+# GridKing material 3
+DrugDealer.Loot.VoodooBoys.LootItem.19:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.GridKing.Material.3
+  dropChance: 0.75
+  dropCountMax: 4
+  dropCountMin: 1

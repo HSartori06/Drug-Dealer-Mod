@@ -1,0 +1,227 @@
+# Maelstrom 1
+DrugDealer.Loot.Maelstrom.1:
+  $base: Character.maelstrom_grunt2_melee2_hammer_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Maelstrom.LootDrop
+
+# Maelstrom 2
+DrugDealer.Loot.Maelstrom.2:
+  $base: Character.maelstrom_grunt2_ranged2_ajax_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Maelstrom.LootDrop
+
+# Maelstrom 3
+DrugDealer.Loot.Maelstrom.3:
+  $base: Character.maelstrom_grunt2_ranged2_copperhead_wa
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Maelstrom.LootDrop
+
+# Maelstrom 4
+DrugDealer.Loot.Maelstrom.4:
+  $base: Character.maelstrom_grunt2_melee2_machete_wa
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Maelstrom.LootDrop
+
+# Maelstrom 5 v6
+DrugDealer.Loot.Maelstrom.5:
+  $base: Character.maelstrom_grunt1_ranged1_copperhead_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Maelstrom.LootDrop
+
+# Maelstrom 6 v6
+DrugDealer.Loot.Maelstrom.6:
+  $base: Character.maelstrom_grunt1_ranged1_lexington_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Maelstrom.LootDrop
+
+# Maelstrom 7 v6
+DrugDealer.Loot.Maelstrom.7:
+  $base: Character.maelstrom_grunt1_ranged1_lexington_wa
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Maelstrom.LootDrop
+
+# Maelstrom 8 v6
+DrugDealer.Loot.Maelstrom.8:
+  $base: Character.maelstrom_grunt2_ranged2_ajax_wa
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Maelstrom.LootDrop
+
+# Maelstrom 9 v6 rare
+DrugDealer.Loot.Maelstrom.9:
+  $base: Character.maelstrom_strong_gunner2_defender_mb_rare
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Maelstrom.LootDrop
+
+# Maelstrom 10 v6 elite
+DrugDealer.Loot.Maelstrom.10:
+  $base: Character.maelstrom_fast_sniper2_grad_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Maelstrom.LootDrop
+
+# Maelstrom 11 v6 elite
+DrugDealer.Loot.Maelstrom.11:
+  $base: Character.maelstrom_fast_fmelee3_mantis_wa_elite
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Maelstrom.LootDrop
+
+# Maelstrom 12 v6 elite
+DrugDealer.Loot.Maelstrom.12:
+  $base: Character.maelstrom_officer_officer_lexington_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Maelstrom.LootDrop
+
+# Maelstrom 13 v6
+DrugDealer.Loot.Maelstrom.13:
+  $base: Character.maelstrom_grunt1_melee1_knife_ma
+  baseAttitudeGroup: hostile
+  lootDrop: DrugDealer.Loot.Maelstrom.LootDrop
+
+# Maelstrom loot drop
+DrugDealer.Loot.Maelstrom.LootDrop:
+  $type: gamedataLootTable_Record
+  lootGenerationType: dropChance
+  maxItemsToLoot: 99
+  minItemsToLoot: 1
+  lootItems:
+    - DrugDealer.Loot.Maelstrom.LootItem.1
+    - DrugDealer.Loot.Maelstrom.LootItem.2
+    - DrugDealer.Loot.Maelstrom.LootItem.3
+    - DrugDealer.Loot.Maelstrom.LootItem.4
+    - DrugDealer.Loot.Maelstrom.LootItem.5
+    - DrugDealer.Loot.Maelstrom.LootItem.6
+    - DrugDealer.Loot.Maelstrom.LootItem.7
+    - DrugDealer.Loot.Maelstrom.LootItem.8
+    - DrugDealer.Loot.Maelstrom.LootItem.9
+    - DrugDealer.Loot.Maelstrom.LootItem.10
+    - DrugDealer.Loot.Maelstrom.LootItem.11
+    - DrugDealer.Loot.Maelstrom.LootItem.12
+    - DrugDealer.Loot.Maelstrom.LootItem.13
+    - DrugDealer.Loot.Maelstrom.LootItem.14
+    - DrugDealer.Loot.Maelstrom.LootItem.15
+    - DrugDealer.Loot.Maelstrom.LootItem.16
+
+# Maelstrom loot items
+DrugDealer.Loot.Maelstrom.LootItem.1:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Y99
+  dropChance: 0.05
+  dropCountMax: 3
+  dropCountMin: 1
+
+DrugDealer.Loot.Maelstrom.LootItem.2:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Y99.Material.1
+  dropChance: 0.6
+  dropCountMax: 3
+  dropCountMin: 1
+
+DrugDealer.Loot.Maelstrom.LootItem.3:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Y99.Material.2
+  dropChance: 0.8
+  dropCountMax: 4
+  dropCountMin: 1
+
+# JoytoysKiss material 1
+DrugDealer.Loot.Maelstrom.LootItem.4:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.JoytoysKiss.Material.1
+  dropChance: 0.01
+  dropCountMax: 3
+  dropCountMin: 1
+
+# JoytoysKiss material 2
+DrugDealer.Loot.Maelstrom.LootItem.5:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.JoytoysKiss.Material.2
+  dropChance: 0.01
+  dropCountMax: 3
+  dropCountMin: 1
+
+# SandstormV2 material 1
+DrugDealer.Loot.Maelstrom.LootItem.6:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.SandstormV2.Material.1
+  dropChance: 0.2
+  dropCountMax: 4
+  dropCountMin: 1
+
+# SandstormV2 material 2
+DrugDealer.Loot.Maelstrom.LootItem.7:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.SandstormV2.Material.2
+  dropChance: 0.1
+  dropCountMax: 3
+  dropCountMin: 1
+
+# SandstormV2 material 3
+DrugDealer.Loot.Maelstrom.LootItem.8:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.SandstormV2.Material.3
+  dropChance: 0.1
+  dropCountMax: 3
+  dropCountMin: 1
+
+# BeastOut material 1
+DrugDealer.Loot.Maelstrom.LootItem.9:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.BeastOut.Material.1
+  dropChance: 0.2
+  dropCountMax: 4
+  dropCountMin: 1
+
+# BeastOut material 2
+DrugDealer.Loot.Maelstrom.LootItem.10:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.BeastOut.Material.2
+  dropChance: 0.1
+  dropCountMax: 3
+  dropCountMin: 1
+
+# BeastOut material 3
+DrugDealer.Loot.Maelstrom.LootItem.11:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.BeastOut.Material.3
+  dropChance: 0.1
+  dropCountMax: 3
+  dropCountMin: 1
+
+# Pixie material 1 - Shimmer capsules
+DrugDealer.Loot.Maelstrom.LootItem.12:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Pixie.Material.1
+  dropChance: 0.01
+  dropCountMax: 3
+  dropCountMin: 1
+
+# Pixie material 2 - Dreambloom powder
+DrugDealer.Loot.Maelstrom.LootItem.13:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Pixie.Material.2
+  dropChance: 0.01
+  dropCountMax: 3
+  dropCountMin: 1
+
+# Pixie material 3 - Lumin fluid
+DrugDealer.Loot.Maelstrom.LootItem.14:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.Pixie.Material.3
+  dropChance: 0.01
+  dropCountMax: 3
+  dropCountMin: 1
+
+# NeonGlow material 1 - Neon tube residue
+DrugDealer.Loot.Maelstrom.LootItem.15:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.NeonGlow.Material.1
+  dropChance: 0.3
+  dropCountMax: 3
+  dropCountMin: 1
+
+# NeonGlow material 2 - Zetatech neural coolant
+DrugDealer.Loot.Maelstrom.LootItem.16:
+  $type: gamedataLootItem_Record
+  itemID: DrugDealer.Drug.NeonGlow.Material.2
+  dropChance: 0.3
+  dropCountMax: 3
+  dropCountMin: 1

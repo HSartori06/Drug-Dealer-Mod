@@ -1,0 +1,291 @@
+DrugDealer.Vehicle.Valentinos.1:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_villefort_cortes
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt1_ranged1_nova_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt2_ranged2_ajax_wa
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt3_fmelee2_knife_ma_rare
+      weight: 1.0
+
+DrugDealer.Vehicle.Valentinos.2:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_archer_hella_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt1_melee1_knife_wa
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt2_ranged2_nue_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_shotgun3_shotgun3_testera_ma_elite
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt1_ranged1_nova_wa
+      weight: 1.0
+
+DrugDealer.Vehicle.Valentinos.3:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_sniper_sniper3_grad_wa_elite
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt1_melee1_knife_ma
+      weight: 2.0
+
+DrugDealer.Vehicle.Valentinos.4:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_mizutani_hozuki_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt2_ranged2_ajax_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt2_ranged2_nue_wa
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt1_ranged1_nova_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.Valentinos.5:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_villefort_cortes_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt1_ranged1_nova_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt3_fmelee2_knife_ma_rare
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt1_melee1_knife_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt2_ranged2_ajax_wa
+      weight: 1.0
+
+DrugDealer.Vehicle.Valentinos.6:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_thorton_galena
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_shotgun3_shotgun3_testera_ma_elite
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt2_ranged2_nue_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt1_melee1_knife_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.Valentinos.7:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_sniper_sniper3_grad_wa_elite
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt2_ranged2_ajax_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt2_ranged2_nue_wa
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt1_ranged1_nova_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.Valentinos.8:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_villefort_cortes
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt1_melee1_knife_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt1_ranged1_nova_wa
+      weight: 2.0
+
+DrugDealer.Vehicle.Valentinos.9:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_archer_hella_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt3_fmelee2_knife_ma_rare
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt2_ranged2_nue_ma
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt2_ranged2_ajax_wa
+      weight: 1.0
+
+DrugDealer.Vehicle.Valentinos.10:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_mizutani_hozuki_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt1_melee1_knife_ma
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_shotgun3_shotgun3_testera_ma_elite
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt1_ranged1_nova_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt2_ranged2_nue_wa
+      weight: 1.0
+
+DrugDealer.Vehicle.Valentinos.11:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_sniper_sniper3_grad_wa_elite
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt2_ranged2_ajax_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt1_ranged1_nova_wa
+      weight: 1.0
+
+DrugDealer.Vehicle.Valentinos.12:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_villefort_cortes_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt1_melee1_knife_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt2_ranged2_nue_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt3_fmelee2_knife_ma_rare
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt2_ranged2_ajax_wa
+      weight: 1.0
+
+DrugDealer.Vehicle.Valentinos.13:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_thorton_galena
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt2_ranged2_nue_wa
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt1_melee1_knife_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_shotgun3_shotgun3_testera_ma_elite
+      weight: 1.0
+
+DrugDealer.Vehicle.Valentinos.14:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt1_ranged1_nova_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt2_ranged2_ajax_ma
+      weight: 2.0
+
+DrugDealer.Vehicle.Valentinos.15:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_villefort_cortes
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_sniper_sniper3_grad_wa_elite
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt1_ranged1_nova_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt2_ranged2_nue_ma
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt1_melee1_knife_wa
+      weight: 1.0
+
+DrugDealer.Vehicle.Valentinos.16:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_archer_hella_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt3_fmelee2_knife_ma_rare
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt2_ranged2_ajax_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt1_melee1_knife_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.Valentinos.17:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_mizutani_hozuki_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_shotgun3_shotgun3_testera_ma_elite
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt2_ranged2_nue_wa
+      weight: 2.0
+
+DrugDealer.Vehicle.Valentinos.18:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt2_ranged2_ajax_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt1_ranged1_nova_ma
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt1_melee1_knife_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_sniper_sniper3_grad_wa_elite
+      weight: 1.0
+
+DrugDealer.Vehicle.Valentinos.19:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_villefort_cortes_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt2_ranged2_nue_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt1_ranged1_nova_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt2_ranged2_ajax_wa
+      weight: 2.0
+
+DrugDealer.Vehicle.Valentinos.20:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_thorton_galena
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt1_melee1_knife_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt3_fmelee2_knife_ma_rare
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_shotgun3_shotgun3_testera_ma_elite
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.gle_valentinos_grunt2_ranged2_nue_wa
+      weight: 1.0

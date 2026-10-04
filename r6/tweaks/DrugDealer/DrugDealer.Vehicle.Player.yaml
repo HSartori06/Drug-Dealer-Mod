@@ -1,0 +1,267 @@
+# Watson
+DrugDealer.Vehicle.Player.Watson.1:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_thorton_galena
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: DrugDealer.Vehicle.Player.Animal.1
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Vehicle.Player.Animal.2
+      weight: 2.0
+
+DrugDealer.Vehicle.Player.Animal.1:
+  $base: Character.dtn_animals_grunt1_ranged1_nova_mb
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+  tags:
+    - !append-once DrugDealerPlayerAlly
+
+DrugDealer.Vehicle.Player.Animal.2:
+  $base: Character.cvi_animals_grunt2_ranged2_pulsar_mb
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+  tags:
+    - !append-once DrugDealerPlayerAlly
+
+DrugDealer.Vehicle.Player.Watson.2:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_archer_hella_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: DrugDealer.Vehicle.Player.Maelstrom.1
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Vehicle.Player.Maelstrom.2
+      weight: 1.0
+
+DrugDealer.Vehicle.Player.Maelstrom.1:
+  $base: Character.nid_maelstrom_grunt1_ranged1_copperhead_wa
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+  tags:
+    - !append-once DrugDealerPlayerAlly
+
+DrugDealer.Vehicle.Player.Maelstrom.2:
+  $base: Character.nid_maelstrom_grunt2_melee2_hammer_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+  tags:
+    - !append-once DrugDealerPlayerAlly
+
+# Westbrook
+DrugDealer.Vehicle.Player.Westbrook.1:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_sport2_quadra_type66_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: DrugDealer.Vehicle.Player.Moxes.1
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Vehicle.Player.Moxes.2
+      weight: 2.0
+
+DrugDealer.Vehicle.Player.Moxes.1:
+  $base: Character.kab_the_mox_1_ranged1_lexington_wa
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+  tags:
+    - !append-once DrugDealerPlayerAlly
+
+DrugDealer.Vehicle.Player.Moxes.2:
+  $base: Character.kab_the_mox_1_ranged1_pulsar_wa
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+  tags:
+    - !append-once DrugDealerPlayerAlly
+
+DrugDealer.Vehicle.Player.Westbrook.2:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_sport1_quadra_turbo_tyger_claw
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: DrugDealer.Vehicle.Player.TygerClaws.1
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Vehicle.Player.TygerClaws.2
+      weight: 1.0
+
+DrugDealer.Vehicle.Player.TygerClaws.1:
+  $base: Character.kab_tyger_claws_gangster1_ranged1_copperhead_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+  tags:
+    - !append-once DrugDealerPlayerAlly
+
+DrugDealer.Vehicle.Player.TygerClaws.2:
+  $base: Character.nok_tyger_claws_gangster2_ranged2_copperhead_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+  tags:
+    - !append-once DrugDealerPlayerAlly
+
+# SantoDomingo
+DrugDealer.Vehicle.Player.SantoDomingo.1:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_villefort_cortes
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: DrugDealer.Vehicle.Player.Valentinos.1
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Vehicle.Player.Valentinos.2
+      weight: 2.0
+
+DrugDealer.Vehicle.Player.Valentinos.1:
+  $base: Character.gle_valentinos_grunt1_ranged1_nova_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+  tags:
+    - !append-once DrugDealerPlayerAlly
+
+DrugDealer.Vehicle.Player.Valentinos.2:
+  $base: Character.gle_valentinos_grunt2_ranged2_ajax_wa
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+  tags:
+    - !append-once DrugDealerPlayerAlly
+
+DrugDealer.Vehicle.Player.SantoDomingo.2:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_archer_hella_sixth_street
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: DrugDealer.Vehicle.Player.SixthStreet.1
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Vehicle.Player.SixthStreet.2
+      weight: 1.0
+
+DrugDealer.Vehicle.Player.SixthStreet.1:
+  $base: Character.rcr_sixthstreet_hooligan_ranged1_nova_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+  tags:
+    - !append-once DrugDealerPlayerAlly
+
+DrugDealer.Vehicle.Player.SixthStreet.2:
+  $base: Character.rcr_sixthstreet_menace1_shotgun2_igla_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+  tags:
+    - !append-once DrugDealerPlayerAlly
+
+# Heywood
+DrugDealer.Vehicle.Player.Heywood.1:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_mizutani_hozuki_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: DrugDealer.Vehicle.Player.Valentinos.3
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Vehicle.Player.Valentinos.4
+      weight: 2.0
+
+DrugDealer.Vehicle.Player.Valentinos.3:
+  $base: Character.gle_valentinos_grunt1_melee1_knife_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+  tags:
+    - !append-once DrugDealerPlayerAlly
+
+DrugDealer.Vehicle.Player.Valentinos.4:
+  $base: Character.gle_valentinos_grunt2_ranged2_nue_wa
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+  tags:
+    - !append-once DrugDealerPlayerAlly
+
+DrugDealer.Vehicle.Player.Heywood.2:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_villefort_columbus_poor
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: DrugDealer.Vehicle.Player.SixthStreet.3
+      weight: 2.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Vehicle.Player.SixthStreet.4
+      weight: 1.0
+
+DrugDealer.Vehicle.Player.SixthStreet.3:
+  $base: Character.rcr_sixthstreet_hooligan_melee1_knife_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+  tags:
+    - !append-once DrugDealerPlayerAlly
+
+DrugDealer.Vehicle.Player.SixthStreet.4:
+  $base: Character.hil_sixthstreet_hooligan_ranged1_saratoga_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+  tags:
+    - !append-once DrugDealerPlayerAlly
+
+# Pacifica
+DrugDealer.Vehicle.Player.Pacifica.1:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_mahir_voodoo_boys
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: DrugDealer.Vehicle.Player.VoodooBoys.1
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Vehicle.Player.VoodooBoys.2
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Vehicle.Player.VoodooBoys.3
+      weight: 1.0
+
+DrugDealer.Vehicle.Player.Pacifica.2:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_mahir_voodoo_boys
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: DrugDealer.Vehicle.Player.VoodooBoys.3
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Vehicle.Player.VoodooBoys.4
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: DrugDealer.Vehicle.Player.VoodooBoys.5
+      weight: 1.0      
+
+DrugDealer.Vehicle.Player.VoodooBoys.1:
+  $base: Character.voodooboys_grunt1_ranged2_sidewinder_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+  tags:
+    - !append-once DrugDealerPlayerAlly
+
+DrugDealer.Vehicle.Player.VoodooBoys.2:
+  $base: Character.voodooboys_grunt1_ranged2_sidewinder_wa
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+  tags:
+    - !append-once DrugDealerPlayerAlly
+
+DrugDealer.Vehicle.Player.VoodooBoys.3:
+  $base: Character.voodooboys_grunt1coat_shotgun2_palica_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+  tags:
+    - !append-once DrugDealerPlayerAlly
+
+DrugDealer.Vehicle.Player.VoodooBoys.4:
+  $base: Character.voodooboys_grunt1_ranged2_sidewinder_wa
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+  tags:
+    - !append-once DrugDealerPlayerAlly
+
+DrugDealer.Vehicle.Player.VoodooBoys.5:
+  $base: Character.voodooboys_grunt1_ranged2_sidewinder_ma
+  baseAttitudeGroup: player
+  affiliation: Factions.Unaffiliated
+  tags:
+    - !append-once DrugDealerPlayerAlly

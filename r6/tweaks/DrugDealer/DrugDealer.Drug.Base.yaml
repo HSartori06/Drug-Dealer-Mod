@@ -1,0 +1,21 @@
+# Drug material base
+DrugDealer.Drug.Material.Base:
+  $base: Items.BlackLaceV0
+  itemCategory: ItemCategory.Consumable
+  quality: Quality.Common
+  icon:
+    atlasResourcePath: icons\drug_dealer_icons.inkatlas
+    atlasPartName: slot_01
+  objectActions:
+    - ItemAction.Drop
+  statModifierGroups: []
+  statModifiers: [DrugDealer.Drug.Quantity.Modifier]
+  OnEquip: []
+  buyPrice: []
+  sellPrice: []
+  canDrop: True
+  tags:
+    - Consumable
+    - DrugDealer.Material
+  displayName: l"DD.Drug.Y99.Material1"
+  localizedDescription: l"DD.Drug.Y99.Material1.Description"

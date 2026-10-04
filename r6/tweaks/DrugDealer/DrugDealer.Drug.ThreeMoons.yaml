@@ -1,0 +1,40 @@
+# ThreeMoons drug craftable
+DrugDealer.Drug.ThreeMoons:
+  $base: Items.BlackLaceV0
+  itemCategory: ItemCategory.Consumable
+  quality: Quality.Legendary
+  buyPrice: []
+  sellPrice: []
+  statModifiers: [DrugDealer.Drug.Quantity.Modifier]
+  tags:
+    - DrugDealerDrug
+    - DrugDealerPremiumGradeDrug
+    - Consumable
+    - Drug
+  displayName: l"DD.Drug.ThreeMoons"
+  localizedDescription: l"DD.Drug.ThreeMoons.Description"
+  icon:
+    atlasResourcePath: icons\drug_dealer_icons.inkatlas
+    atlasPartName: slot_37
+
+# ThreeMoons material 1
+DrugDealer.Drug.ThreeMoons.Material.1:
+  $base: DrugDealer.Drug.Material.Base
+  quality: Quality.Legendary
+  displayName: l"DD.Drug.ThreeMoons.Material1"
+  localizedDescription: l"DD.Drug.ThreeMoons.Material1.Description"
+  canDrop: False
+  icon:
+    atlasResourcePath: icons\drug_dealer_icons.inkatlas
+    atlasPartName: slot_07
+
+# ThreeMoons material 2
+DrugDealer.Drug.ThreeMoons.Material.2:
+  $base: DrugDealer.Drug.Material.Base
+  quality: Quality.Legendary
+  displayName: l"DD.Drug.ThreeMoons.Material2"
+  localizedDescription: l"DD.Drug.ThreeMoons.Material2.Description"
+  canDrop: False
+  icon:
+    atlasResourcePath: icons\drug_dealer_icons.inkatlas
+    atlasPartName: slot_27

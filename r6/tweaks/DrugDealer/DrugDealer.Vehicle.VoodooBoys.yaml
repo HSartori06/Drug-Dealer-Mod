@@ -1,0 +1,276 @@
+DrugDealer.Vehicle.VoodooBoys.1:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_thorton_galena_voodoo_boys
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_saratoga_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_sidewinder_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.VoodooBoys.2:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_mahir_voodoo_boys
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_saratoga_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_sidewinder_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1coat_shotgun2_palica_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.VoodooBoys.3:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_thorton_galena_voodoo_boys
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_saratoga_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_sidewinder_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt2coat_shotgun2_palica_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_netrunner2_netrunner2_lexington_ma_rare
+      weight: 1.0
+
+DrugDealer.Vehicle.VoodooBoys.4:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_thorton_galena_voodoo_boys
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_saratoga_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1coat_shotgun2_palica_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.VoodooBoys.5:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_mahir_voodoo_boys
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_sidewinder_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_sidewinder_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt2coat_shotgun2_palica_wa
+      weight: 1.0
+
+DrugDealer.Vehicle.VoodooBoys.6:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_mahir_voodoo_boys
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_saratoga_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_saratoga_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1coat_shotgun2_palica_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt3coat_shotgun3_zhuo_ma_elite
+      weight: 1.0
+
+DrugDealer.Vehicle.VoodooBoys.7:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_thorton_galena_voodoo_boys
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_sidewinder_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt2coat_shotgun2_palica_wa
+      weight: 1.0
+
+DrugDealer.Vehicle.VoodooBoys.8:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_mahir_voodoo_boys
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_saratoga_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_sidewinder_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_netrunner2_netrunner2_lexington_wa_rare
+      weight: 1.0
+
+DrugDealer.Vehicle.VoodooBoys.9:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_thorton_galena_voodoo_boys
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_saratoga_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_sidewinder_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1coat_shotgun2_palica_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt2coat_shotgun2_palica_wa
+      weight: 1.0
+
+DrugDealer.Vehicle.VoodooBoys.10:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_mahir_voodoo_boys
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_saratoga_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_sidewinder_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.VoodooBoys.11:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_mahir_voodoo_boys
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_saratoga_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1coat_shotgun2_palica_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_netrunner2_netrunner2_lexington_ma_rare
+      weight: 1.0
+
+DrugDealer.Vehicle.VoodooBoys.12:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_thorton_galena_voodoo_boys
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_sidewinder_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_sidewinder_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt2coat_shotgun2_palica_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_netrunner3_netrunner3_quasar_wa_elite
+      weight: 1.0
+
+DrugDealer.Vehicle.VoodooBoys.13:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_mahir_voodoo_boys
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_saratoga_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1coat_shotgun2_palica_ma
+      weight: 1.0
+
+DrugDealer.Vehicle.VoodooBoys.14:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_thorton_galena_voodoo_boys
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_saratoga_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_sidewinder_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_sidewinder_wa
+      weight: 1.0
+
+DrugDealer.Vehicle.VoodooBoys.15:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_thorton_galena_voodoo_boys
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_saratoga_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1coat_shotgun2_palica_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt2coat_shotgun2_palica_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_netrunner2_netrunner2_lexington_wa_rare
+      weight: 1.0
+
+DrugDealer.Vehicle.VoodooBoys.16:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_mahir_voodoo_boys
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_sidewinder_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_sidewinder_wa
+      weight: 1.0
+
+DrugDealer.Vehicle.VoodooBoys.17:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_thorton_galena_voodoo_boys
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_saratoga_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_saratoga_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt2coat_shotgun2_palica_wa
+      weight: 1.0
+
+DrugDealer.Vehicle.VoodooBoys.18:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_mahir_voodoo_boys
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_sidewinder_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1coat_shotgun2_palica_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_netrunner2_netrunner2_lexington_ma_rare
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt3coat_shotgun3_zhuo_ma_elite
+      weight: 1.0
+
+DrugDealer.Vehicle.VoodooBoys.19:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard25_mahir_voodoo_boys
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_sidewinder_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt2coat_shotgun2_palica_wa
+      weight: 1.0
+
+DrugDealer.Vehicle.VoodooBoys.20:
+  $type: DynamicVehicleData
+  vehicleRecord: Vehicle.v_standard2_thorton_galena_voodoo_boys
+  unitRecordsPool:
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_saratoga_ma
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1_ranged2_saratoga_wa
+      weight: 1.0
+    - $type: WeightedCharacter
+      character: Character.voodooboys_grunt1coat_shotgun2_palica_ma
+      weight: 1.0

@@ -1,0 +1,51 @@
+# EmperorsEyes drug craftable
+DrugDealer.Drug.EmperorsEyes:
+  $base: Items.BlackLaceV0
+  itemCategory: ItemCategory.Consumable
+  quality: Quality.Legendary
+  buyPrice: []
+  sellPrice: []
+  statModifiers: [DrugDealer.Drug.Quantity.Modifier]
+  tags:
+    - DrugDealerDrug
+    - DrugDealerPremiumGradeDrug
+    - Consumable
+    - Drug
+  displayName: l"DD.Drug.EmperorsEyes"
+  localizedDescription: l"DD.Drug.EmperorsEyes.Description"
+  icon:
+    atlasResourcePath: icons\drug_dealer_icons.inkatlas
+    atlasPartName: slot_38
+
+# EmperorsEyes material 1
+DrugDealer.Drug.EmperorsEyes.Material.1:
+  $base: DrugDealer.Drug.Material.Base
+  quality: Quality.Legendary
+  displayName: l"DD.Drug.EmperorsEyes.Material1"
+  localizedDescription: l"DD.Drug.EmperorsEyes.Material1.Description"
+  canDrop: False
+  icon:
+    atlasResourcePath: icons\drug_dealer_icons.inkatlas
+    atlasPartName: slot_08
+
+# EmperorsEyes material 2
+DrugDealer.Drug.EmperorsEyes.Material.2:
+  $base: DrugDealer.Drug.Material.Base
+  quality: Quality.Legendary
+  displayName: l"DD.Drug.EmperorsEyes.Material2"
+  localizedDescription: l"DD.Drug.EmperorsEyes.Material2.Description"
+  canDrop: False
+  icon:
+    atlasResourcePath: icons\drug_dealer_icons.inkatlas
+    atlasPartName: slot_18
+
+# EmperorsEyes material 3
+DrugDealer.Drug.EmperorsEyes.Material.3:
+  $base: DrugDealer.Drug.Material.Base
+  quality: Quality.Legendary
+  displayName: l"DD.Drug.EmperorsEyes.Material3"
+  localizedDescription: l"DD.Drug.EmperorsEyes.Material3.Description"
+  canDrop: False
+  icon:
+    atlasResourcePath: icons\drug_dealer_icons.inkatlas
+    atlasPartName: slot_28
